@@ -1,40 +1,40 @@
-// forked from siouxcitizen's "CreateJS 0.6.1 ‘O‰ñƒR[ƒh‚©‚çí“¬‚à‚Ç‚«‹@”\’Ç‰Á" http://jsdo.it/siouxcitizen/1mJ8
+ï»¿// forked from siouxcitizen's "CreateJS 0.6.1 å‰å›ã‚³ãƒ¼ãƒ‰ã‹ã‚‰æˆ¦é—˜ã‚‚ã©ãæ©Ÿèƒ½è¿½åŠ " http://jsdo.it/siouxcitizen/1mJ8
 //
-//©•ª‚ÌƒXƒ}ƒz‚©‚ç‘€ì‚Å‚«‚éƒQ[ƒ€–Úw‚µ‚ÄBBB(©•ª‚ÌƒXƒ}ƒz‚Å‚Ì“®‚«‰ö‚µ‚­‚È‚Á‚Ä‚«‚Ü‚µ‚½‚ªBBB)
-//©•ª‚ÌƒXƒ}ƒz‚©‚ç‚¾‚ÆAƒ{ƒ^ƒ“‚ª˜A‘Å‚É‚È‚Á‚Ä‚µ‚Ü‚¢‚â‚·‚¢BBB
-//
-//
-//‘O‰ñ‚Ì@[Å‰‚Ì‰æ–Ê‚©‚ç‰º‚És‚Á‚½2‰æ–Ê–Ú‚Ìu‚µ‚©‚Î‚Ëv‚Æí‚¦‚é‚æ‚¤‚É‚µ‚Ä‚İ‚Ü‚µ‚½]@‚Ì’Pƒ‚Èí“¬‹@”\‚É‰Á‚¦‚ÄA
-//“G‚É‹­‚³‚ÉƒŒƒxƒ‹‚ğ•¡”—pˆÓ‚µ‚½ã‚ÅA“|‚µ‚½‚»‚Ì“G‚©‚çƒ{[ƒ“‚ğ‚à‚ç‚¢A
-//W‚ß‚½ƒ{[ƒ“‚©‚çì‚é”é–ò‚Å—EÒ‚ğƒŒƒxƒ‹ƒAƒbƒv‚Æ‚¢‚¤ƒVƒXƒeƒ€‚ğ’Ç‰Á‚µ‚Ä‚İ‚Ü‚µ‚½B
-//
-//ƒeƒXƒg‚Æ‚©ƒpƒ‰ƒ[ƒ^[‚Ìƒoƒ‰ƒ“ƒXæ‚è‚È‚ñ‚©‚Í‚Ù‚Æ‚ñ‚Ç‚â‚Á‚Ä‚Ü‚¹‚ñBBB
-//ƒoƒO‘½‚¢‚©‚à
+//è‡ªåˆ†ã®ã‚¹ãƒãƒ›ã‹ã‚‰æ“ä½œã§ãã‚‹ã‚²ãƒ¼ãƒ ç›®æŒ‡ã—ã¦ã€‚ã€‚ã€‚(è‡ªåˆ†ã®ã‚¹ãƒãƒ›ã§ã®å‹•ãæ€ªã—ããªã£ã¦ãã¾ã—ãŸãŒã€‚ã€‚ã€‚)
+//è‡ªåˆ†ã®ã‚¹ãƒãƒ›ã‹ã‚‰ã ã¨Aãƒœã‚¿ãƒ³ãŒé€£æ‰“ã«ãªã£ã¦ã—ã¾ã„ã‚„ã™ã„ã€‚ã€‚ã€‚
 //
 //
-//Œˆ’èƒ{ƒ^ƒ“¨‰¼‘zƒL[‚ÌAƒ{ƒ^ƒ“A‚Ü‚½‚ÍƒL[ƒ{[ƒh‚ÌZƒ{ƒ^ƒ“
-//Bƒ{ƒ^ƒ“¨‰¼‘zƒL[‚ÌBƒ{ƒ^ƒ“A‚Ü‚½‚ÍƒL[ƒ{[ƒh‚ÌBƒ{ƒ^ƒ“¨—EÒƒLƒƒƒ‰‚ÌˆÚ“®ƒXƒs[ƒh•ÏX
+//å‰å›ã®ã€€[æœ€åˆã®ç”»é¢ã‹ã‚‰ä¸‹ã«è¡Œã£ãŸ2ç”»é¢ç›®ã®ã€Œã—ã‹ã°ã­ã€ã¨æˆ¦ãˆã‚‹ã‚ˆã†ã«ã—ã¦ã¿ã¾ã—ãŸ]ã€€ã®å˜ç´”ãªæˆ¦é—˜æ©Ÿèƒ½ã«åŠ ãˆã¦ã€
+//æ•µã«å¼·ã•ã«ãƒ¬ãƒ™ãƒ«ã‚’è¤‡æ•°ç”¨æ„ã—ãŸä¸Šã§ã€å€’ã—ãŸãã®æ•µã‹ã‚‰ãƒœãƒ¼ãƒ³ã‚’ã‚‚ã‚‰ã„ã€
+//é›†ã‚ãŸãƒœãƒ¼ãƒ³ã‹ã‚‰ä½œã‚‹ç§˜è–¬ã§å‹‡è€…ã‚’ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ—ã¨ã„ã†ã‚·ã‚¹ãƒ†ãƒ ã‚’è¿½åŠ ã—ã¦ã¿ã¾ã—ãŸã€‚
+//
+//ãƒ†ã‚¹ãƒˆã¨ã‹ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãƒ¼ã®ãƒãƒ©ãƒ³ã‚¹å–ã‚Šãªã‚“ã‹ã¯ã»ã¨ã‚“ã©ã‚„ã£ã¦ã¾ã›ã‚“ã€‚ã€‚ã€‚
+//ãƒã‚°å¤šã„ã‹ã‚‚
 //
 //
-//1‰æ–Ê–Ú
-//Œˆ’èƒ{ƒ^ƒ“‚Å‘m—µ‚É˜b‚µ‚©‚¯‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·@‘m—µ‚ªà–¾“I‚ÈŠ´‚¶‚ÅƒVƒXƒeƒ€à–¾‚µ‚Ü‚·BBB
-//‰½‚à‚È‚¢‚Æ‚±‚ë‚ÅŒˆ’èƒ{ƒ^ƒ“‚ğ‰Ÿ‚·‚Æ—EÒ‚ÌƒXƒe[ƒ^ƒX‚ª•\¦‚³‚ê‚Ü‚·
-//
-//2‰æ–Ê–Ú
-//Œˆ’èƒ{ƒ^ƒ“‚Å“Gu‚µ‚©‚Î‚Ëv‚Æí“¬‚Å‚«‚Ü‚·
-//2‰æ–Ê–Ú‚Å‚Ì—EÒ‚ÌêŠ‚ª•Ï‚í‚é‚Æo‚Ä‚­‚éu‚µ‚©‚Î‚Ëv‚ÌƒŒƒxƒ‹‚à•Ï‰»‚í‚è‚Ü‚·
-//uƒ{ƒX‚µ‚©‚Î‚Ëv‚ğ“|‚·‚ÆƒQ[ƒ€I—¹‚Æ‚È‚è‚Ü‚·
-//u‚µ‚©‚Î‚Ëv‚Í‹­‚³‚ÌƒŒƒxƒ‹‚É‚æ‚ç‚¸‘S‚Ä“¯‚¶‰æ‘œ‚Å‚·BBB
-//
-//3‰æ–Ê–Ú
-//Œˆ’èƒ{ƒ^ƒ“‚Å–‚—‚É˜b‚µ‚©‚¯‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
-//ƒ{[ƒ“‚ª\•ª‚É‚ ‚ê‚Îƒ{[ƒ“‚Å”é–ò‚ğì¬Eg—p‚µ‚Ä—EÒ‚ÌƒŒƒxƒ‹ƒAƒbƒv‚ª‚Å‚«‚Ü‚·
-//‰½‚à‚È‚¢‚Æ‚±‚ë‚ÅŒˆ’èƒ{ƒ^ƒ“‚ğ‰Ÿ‚·‚Æ—EÒ‚ÌƒXƒe[ƒ^ƒX‚ª•\¦‚³‚ê‚Ü‚·
+//æ±ºå®šãƒœã‚¿ãƒ³â†’ä»®æƒ³ã‚­ãƒ¼ã®Aãƒœã‚¿ãƒ³ã€ã¾ãŸã¯ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã®Zãƒœã‚¿ãƒ³
+//Bãƒœã‚¿ãƒ³â†’ä»®æƒ³ã‚­ãƒ¼ã®Bãƒœã‚¿ãƒ³ã€ã¾ãŸã¯ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã®Bãƒœã‚¿ãƒ³â†’å‹‡è€…ã‚­ãƒ£ãƒ©ã®ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰å¤‰æ›´
 //
 //
-//‚Â‚¢‚Å‚ÉA
-//w“E‚³‚ê‚½”½‘Î‚É‚È‚Á‚Ä‚¢‚½Aƒ{ƒ^ƒ“‚ÆBƒ{ƒ^ƒ“‚ÌˆÊ’u‚ğC³
-//CreateJS‚Ì0.61‚Å‚Í‚È‚­EaselJS‚Ì0.61‚Å‚ ‚é‚æ‚¤‚Éƒ^ƒCƒgƒ‹‚ğC³
+//1ç”»é¢ç›®
+//æ±ºå®šãƒœã‚¿ãƒ³ã§åƒ§ä¾¶ã«è©±ã—ã‹ã‘ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€€åƒ§ä¾¶ãŒèª¬æ˜çš„ãªæ„Ÿã˜ã§ã‚·ã‚¹ãƒ†ãƒ èª¬æ˜ã—ã¾ã™ã€‚ã€‚ã€‚
+//ä½•ã‚‚ãªã„ã¨ã“ã‚ã§æ±ºå®šãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨å‹‡è€…ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãŒè¡¨ç¤ºã•ã‚Œã¾ã™
+//
+//2ç”»é¢ç›®
+//æ±ºå®šãƒœã‚¿ãƒ³ã§æ•µã€Œã—ã‹ã°ã­ã€ã¨æˆ¦é—˜ã§ãã¾ã™
+//2ç”»é¢ç›®ã§ã®å‹‡è€…ã®å ´æ‰€ãŒå¤‰ã‚ã‚‹ã¨å‡ºã¦ãã‚‹ã€Œã—ã‹ã°ã­ã€ã®ãƒ¬ãƒ™ãƒ«ã‚‚å¤‰åŒ–ã‚ã‚Šã¾ã™
+//ã€Œãƒœã‚¹ã—ã‹ã°ã­ã€ã‚’å€’ã™ã¨ã‚²ãƒ¼ãƒ çµ‚äº†ã¨ãªã‚Šã¾ã™
+//ã€Œã—ã‹ã°ã­ã€ã¯å¼·ã•ã®ãƒ¬ãƒ™ãƒ«ã«ã‚ˆã‚‰ãšå…¨ã¦åŒã˜ç”»åƒã§ã™ã€‚ã€‚ã€‚
+//
+//3ç”»é¢ç›®
+//æ±ºå®šãƒœã‚¿ãƒ³ã§é­”å¥³ã«è©±ã—ã‹ã‘ã‚‹ã“ã¨ãŒã§ãã¾ã™
+//ãƒœãƒ¼ãƒ³ãŒååˆ†ã«ã‚ã‚Œã°ãƒœãƒ¼ãƒ³ã§ç§˜è–¬ã‚’ä½œæˆãƒ»ä½¿ç”¨ã—ã¦å‹‡è€…ã®ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ—ãŒã§ãã¾ã™
+//ä½•ã‚‚ãªã„ã¨ã“ã‚ã§æ±ºå®šãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨å‹‡è€…ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãŒè¡¨ç¤ºã•ã‚Œã¾ã™
+//
+//
+//ã¤ã„ã§ã«ã€
+//æŒ‡æ‘˜ã•ã‚ŒãŸåå¯¾ã«ãªã£ã¦ã„ãŸAãƒœã‚¿ãƒ³ã¨Bãƒœã‚¿ãƒ³ã®ä½ç½®ã‚’ä¿®æ­£
+//CreateJSã®0.61ã§ã¯ãªãEaselJSã®0.61ã§ã‚ã‚‹ã‚ˆã†ã«ã‚¿ã‚¤ãƒˆãƒ«ã‚’ä¿®æ­£
 //
 var stage;
 var message;
@@ -56,18 +56,18 @@ var talkingGraphics;
 var talkingBackGroundRect;
 var talkingMessage;
 
-var mapState = 0; //ƒ}ƒbƒv‚P—pAƒ}ƒbƒv‚Q—pAƒ}ƒbƒv‚R—p
+var mapState = 0; //ãƒãƒƒãƒ—ï¼‘ç”¨ã€ãƒãƒƒãƒ—ï¼’ç”¨ã€ãƒãƒƒãƒ—ï¼“ç”¨
 
-//ƒ{ƒ^ƒ“—p‰æ‘œ
-var leftButtonBmp;     //¶ƒ{ƒ^ƒ“‰æ‘œ
-var rightButtonBmp;    //‰Eƒ{ƒ^ƒ“‰æ‘œ
-var upButtonBmp;       //ãƒ{ƒ^ƒ“‰æ‘œ
-var downButtonBmp;     //‰ºƒ{ƒ^ƒ“‰æ‘œ
-var aButtonBmp;        //Aƒ{ƒ^ƒ“‰æ‘œ
-var bButtonBmp;        //Bƒ{ƒ^ƒ“‰æ‘œ
+//ãƒœã‚¿ãƒ³ç”¨ç”»åƒ
+var leftButtonBmp;     //å·¦ãƒœã‚¿ãƒ³ç”»åƒ
+var rightButtonBmp;    //å³ãƒœã‚¿ãƒ³ç”»åƒ
+var upButtonBmp;       //ä¸Šãƒœã‚¿ãƒ³ç”»åƒ
+var downButtonBmp;     //ä¸‹ãƒœã‚¿ãƒ³ç”»åƒ
+var aButtonBmp;        //Aãƒœã‚¿ãƒ³ç”»åƒ
+var bButtonBmp;        //Bãƒœã‚¿ãƒ³ç”»åƒ
 
 var prevDirection = 0;
-var direction = 4; //•à‚¢‚Ä‚¢‚­•ûŒü i0`3F‰ºã¶‰E  4:~j
+var direction = 4; //æ­©ã„ã¦ã„ãæ–¹å‘ ï¼ˆ0ï½3ï¼šä¸‹ä¸Šå·¦å³  4:æ­¢ï¼‰
 var keyFlags = [false, false, false, false];
 
 var graphics;
@@ -75,7 +75,7 @@ var backGroundRect;
 var mapGround;
 var mapData;
 var mapObstacleData;
-//ƒXƒvƒ‰ƒCƒgƒV[ƒg‚É‚æ‚é—EÒƒAƒjƒ[ƒVƒ‡ƒ“—p
+//ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã‚·ãƒ¼ãƒˆã«ã‚ˆã‚‹å‹‡è€…ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç”¨
 var yuusha;
 var yuushaParam;
 var charaX = 0;
@@ -91,19 +91,19 @@ var isGameOver = false;
 var isGameClear = false;
 
 var field;
-//ƒ}ƒbƒvƒ`ƒbƒv‚Ì•`‰æw’è‚ğs‚È‚¤”z—ñ
-//ÀÛ‚Ì’l‚Í@ŠÖ”@setMapData()@‚Åİ’è
+//ãƒãƒƒãƒ—ãƒãƒƒãƒ—ã®æç”»æŒ‡å®šã‚’è¡Œãªã†é…åˆ—
+//å®Ÿéš›ã®å€¤ã¯ã€€é–¢æ•°ã€€setMapData()ã€€ã§è¨­å®š
 var firstMapData;
 var firstMapObstacleData;
 var secondMapData;
 var secondMapObstacleData;
 var thirdMapData;
 var thirdMapObstacleData;
-//ƒ}ƒbƒv”Ô†@‚Ç‚Ì”z—ñ‚ğg‚Á‚Äƒ}ƒbƒvƒ`ƒbƒv‚Ì•`‰æ‚ğs‚È‚¤‚©”»’è—p
+//ãƒãƒƒãƒ—ç•ªå·ã€€ã©ã®é…åˆ—ã‚’ä½¿ã£ã¦ãƒãƒƒãƒ—ãƒãƒƒãƒ—ã®æç”»ã‚’è¡Œãªã†ã‹åˆ¤å®šç”¨
 var mapNumber = 1;
 
 var yuushaLevelPara;
-//yuushaParam@¨@(lifePoint, maxLifePoint, attackPoint, defencePoint, bone)
+//yuushaParamã€€â†’ã€€(lifePoint, maxLifePoint, attackPoint, defencePoint, bone)
 yuushaLevelParam =  [[  50,  50,   7,   3,   0],
                      [ 100, 100,   9,   5,   0],
                      [ 150, 150,  11,   7,   0],
@@ -142,10 +142,10 @@ function handleFileLoad(event){
 
 function handleComplete(event){
 
-    //ƒ}ƒbƒvƒ`ƒbƒv‚Ì•`‰æw’è‚ğs‚È‚¤”z—ñ‚ğƒZƒbƒg
+    //ãƒãƒƒãƒ—ãƒãƒƒãƒ—ã®æç”»æŒ‡å®šã‚’è¡Œãªã†é…åˆ—ã‚’ã‚»ãƒƒãƒˆ
     setMapData();
 
-    //”wŒi“h‚è‚Â‚Ô‚µ—p‹éŒ`
+    //èƒŒæ™¯å¡—ã‚Šã¤ã¶ã—ç”¨çŸ©å½¢
     graphics = new createjs.Graphics();
     graphics.beginFill("#000000");
     graphics.drawRect(0,0,450,450);
@@ -180,19 +180,19 @@ function handleComplete(event){
     }
     stage.addChild(mapGround);
 
-    //—EÒƒpƒ‰ƒ[ƒ^İ’è(•\¦—pˆÈŠO‚Ìƒpƒ‰ƒ[ƒ^İ’è)
+    //å‹‡è€…ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿è¨­å®š(è¡¨ç¤ºç”¨ä»¥å¤–ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿è¨­å®š)
     //var Yuusha = function(lifePoint, maxLifePoint, attackPoint, defencePoint, bone)
-    //‚æ‚è
+    //ã‚ˆã‚Š
     yuushaParam = new Yuusha(yuushaLevelParam[0][0], 
                              yuushaLevelParam[0][1], 
                              yuushaLevelParam[0][2], 
                              yuushaLevelParam[0][3], 
                              yuushaLevelParam[0][4]); 
 
-    //—EÒƒAƒjƒ[ƒVƒ‡ƒ“—p‚ÌƒXƒvƒ‰ƒCƒgƒV[ƒg‚ğì¬
+    //å‹‡è€…ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç”¨ã®ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã‚·ãƒ¼ãƒˆã‚’ä½œæˆ
     var spriteSheet = new createjs.SpriteSheet({
         images: [queue.getResult("yuushaImg")],
-        //«manifest‚É‚æ‚éƒ[ƒh‚ğg‚í‚¸AˆÈ‰º‚Ì‚æ‚¤‚É’¼Ú‰æ‘œ‚ÌƒpƒX‚ğw’è‚µ‚Ä‚à“®‚«‚Ü‚µ‚½
+        //â†“manifestã«ã‚ˆã‚‹ãƒ­ãƒ¼ãƒ‰ã‚’ä½¿ã‚ãšã€ä»¥ä¸‹ã®ã‚ˆã†ã«ç›´æ¥ç”»åƒã®ãƒ‘ã‚¹ã‚’æŒ‡å®šã—ã¦ã‚‚å‹•ãã¾ã—ãŸ
         //images: ["http://jsrun.it/assets/n/x/7/h/nx7he.png"],
         frames: { width:16, height:16 },
         animations: {
@@ -207,7 +207,7 @@ function handleComplete(event){
     stage.addChild(yuusha);
     yuusha.gotoAndPlay("down");
 
-    //‘m—µƒAƒjƒ[ƒVƒ‡ƒ“—p‚ÌƒXƒvƒ‰ƒCƒgƒV[ƒg‚ğì¬
+    //åƒ§ä¾¶ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç”¨ã®ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã‚·ãƒ¼ãƒˆã‚’ä½œæˆ
     var sprtShtForPriest = new createjs.SpriteSheet({
         images: [queue.getResult("priestImg")],
         frames: { width:16, height:16 },
@@ -225,7 +225,7 @@ function handleComplete(event){
     priest.y = 32;
     mapGround.addChild(priest);
 
-    //–‚—ƒAƒjƒ[ƒVƒ‡ƒ“—p‚ÌƒXƒvƒ‰ƒCƒgƒV[ƒg‚ğì¬
+    //é­”å¥³ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç”¨ã®ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã‚·ãƒ¼ãƒˆã‚’ä½œæˆ
     var sprtShtForWitch = new createjs.SpriteSheet({
         images: [queue.getResult("witchImg")],
         frames: { width:16, height:16 },
@@ -243,7 +243,7 @@ function handleComplete(event){
     witch.y = 512;
     //mapGround.addChild(witch);
 
-    //‚µ‚©‚Î‚ËƒAƒjƒ[ƒVƒ‡ƒ“—p‚ÌƒXƒvƒ‰ƒCƒgƒV[ƒg‚ğì¬
+    //ã—ã‹ã°ã­ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç”¨ã®ã‚¹ãƒ—ãƒ©ã‚¤ãƒˆã‚·ãƒ¼ãƒˆã‚’ä½œæˆ
     var sprtShtForShikabane = new createjs.SpriteSheet({
         images: [queue.getResult("shikabaneImg")],
         frames: { width:16, height:16 },
@@ -261,7 +261,7 @@ function handleComplete(event){
     shikabane.y = 256;
     //mapGround.addChild(shikabane);
 
-    //‰ï˜bƒƒbƒZ[ƒW—p•”wŒi
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”¨é»’èƒŒæ™¯
     talkingGraphics = new createjs.Graphics();
     talkingGraphics.setStrokeStyle(2).beginStroke("#FFFFFF");
     talkingGraphics.beginFill("#000000");
@@ -269,31 +269,31 @@ function handleComplete(event){
     talkingGraphics.drawRoundRect(0,0,440,270,10);
     talkingGraphics.endFill();
     talkingBackGroundRect = new createjs.Shape(talkingGraphics);
-    //‰ï˜bƒƒbƒZ[ƒW•\¦—pTextƒIƒuƒWƒFƒNƒg‚ğ¶¬Eİ’è 
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºç”¨Textã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç”Ÿæˆãƒ»è¨­å®š 
     talkingMessage = new createjs.Text("", "20px Arial", "#FFFFFF");
 
-    //í“¬‰æ–Ê•ƒƒbƒZ[ƒW—p•”wŒi
+    //æˆ¦é—˜ç”»é¢ï¼†ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”¨é»’èƒŒæ™¯
     battleGraphics = new createjs.Graphics();
     battleGraphics.setStrokeStyle(2).beginStroke("#FFFFFF");
     battleGraphics.beginFill("#000000");
     battleGraphics.drawRoundRect(0,0,440,270,10);
     battleGraphics.endFill();
     battleBackGroundRect = new createjs.Shape(battleGraphics);
-    //‰ï˜bƒƒbƒZ[ƒW•\¦—pTextƒIƒuƒWƒFƒNƒg‚ğ¶¬Eİ’è 
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºç”¨Textã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç”Ÿæˆãƒ»è¨­å®š 
     battleMessage = new createjs.Text("", "20px Arial", "#FFFFFF");
 
-    //ƒAƒjƒ[ƒVƒ‡ƒ“‚³‚¹‚éƒLƒƒƒ‰‚ÌÅ‰‚ÌÀ•W‚ğİ’è
-    charaX = 192; //  //32‚Ì”{”
-    charaY = 192; //  //32‚Ì”{”
-    //ª‚©‚í‚è‚É‹ß‚¢32‚Ì”{”’l‚ğg—p
-    //ªƒLƒƒƒ‰ƒ‰ƒNƒ^[‚Æƒ}ƒbƒv‚Ì‰æ‘œ‚Í32–32’PˆÊ‚Å•\¦‚µ‚Ä‚¢‚é‚½‚ß
-    //charaX = 209; //450/2 -16  //32‚Ì”{”‚Å‚È‚¢  //‚¢‚­‚ç4‚ğ‘Œ¸‚µ‚Ä‚à32‚ÅŠ„‚èØ‚ê‚È‚¢‚Ì‚Å–v
-    //charaY = 209; //450/2 -16  //32‚Ì”{”‚Å‚È‚¢  //‚¢‚­‚ç4‚ğ‘Œ¸‚µ‚Ä‚à32‚ÅŠ„‚èØ‚ê‚È‚¢‚Ì‚Å–v
+    //ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã•ã›ã‚‹ã‚­ãƒ£ãƒ©ã®æœ€åˆã®åº§æ¨™ã‚’è¨­å®š
+    charaX = 192; //  //32ã®å€æ•°
+    charaY = 192; //  //32ã®å€æ•°
+    //â†‘ã‹ã‚ã‚Šã«è¿‘ã„32ã®å€æ•°å€¤ã‚’ä½¿ç”¨
+    //â†‘ã‚­ãƒ£ãƒ©ãƒ©ã‚¯ã‚¿ãƒ¼ã¨ãƒãƒƒãƒ—ã®ç”»åƒã¯32ï¼Š32å˜ä½ã§è¡¨ç¤ºã—ã¦ã„ã‚‹ãŸã‚
+    //charaX = 209; //450/2 -16  //32ã®å€æ•°ã§ãªã„  //ã„ãã‚‰4ã‚’å¢—æ¸›ã—ã¦ã‚‚32ã§å‰²ã‚Šåˆ‡ã‚Œãªã„ã®ã§æ²¡
+    //charaY = 209; //450/2 -16  //32ã®å€æ•°ã§ãªã„  //ã„ãã‚‰4ã‚’å¢—æ¸›ã—ã¦ã‚‚32ã§å‰²ã‚Šåˆ‡ã‚Œãªã„ã®ã§æ²¡
     yuusha.x = charaX;
     yuusha.y = charaY;
 
-    //ƒ{ƒ^ƒ“ì¬
-    //¶ƒ{ƒ^ƒ“ì¬
+    //ãƒœã‚¿ãƒ³ä½œæˆ
+    //å·¦ãƒœã‚¿ãƒ³ä½œæˆ
     leftButtonBmp = new createjs.Bitmap(queue.getResult("leftButtonImg"));
     leftButtonBmp.x = 10;
     leftButtonBmp.y = 330;
@@ -302,7 +302,7 @@ function handleComplete(event){
     leftButtonBmp.addEventListener('mousedown',onPressLeftButton,false);
     stage.addChild(leftButtonBmp);
 
-    //‰Eƒ{ƒ^ƒ“ì¬
+    //å³ãƒœã‚¿ãƒ³ä½œæˆ
     rightButtonBmp = new createjs.Bitmap(queue.getResult("rightButtonImg"));
     rightButtonBmp.x = 150;
     rightButtonBmp.y = 330;
@@ -311,7 +311,7 @@ function handleComplete(event){
     rightButtonBmp.addEventListener('mousedown',onPressRightButton,false);
     stage.addChild(rightButtonBmp);
 
-    //ãƒ{ƒ^ƒ“ì¬
+    //ä¸Šãƒœã‚¿ãƒ³ä½œæˆ
     upButtonBmp = new createjs.Bitmap(queue.getResult("upButtonImg"));
     upButtonBmp.x = 80;
     upButtonBmp.y = 280;
@@ -320,7 +320,7 @@ function handleComplete(event){
     upButtonBmp.addEventListener('mousedown',onPressUpButton,false);
     stage.addChild(upButtonBmp);
 
-    //‰ºƒ{ƒ^ƒ“ì¬
+    //ä¸‹ãƒœã‚¿ãƒ³ä½œæˆ
     downButtonBmp = new createjs.Bitmap(queue.getResult("downButtonImg"));
     downButtonBmp.x = 80;
     downButtonBmp.y = 380;
@@ -329,7 +329,7 @@ function handleComplete(event){
     downButtonBmp.addEventListener('mousedown',onPressDownButton,false);
     stage.addChild(downButtonBmp);
 
-    //Aƒ{ƒ^ƒ“ì¬
+    //Aãƒœã‚¿ãƒ³ä½œæˆ
     aButtonBmp = new createjs.Bitmap(queue.getResult("aButtonImg"));
     //aButtonBmp.x = 270;
     //aButtonBmp.y = 330;
@@ -340,7 +340,7 @@ function handleComplete(event){
     aButtonBmp.addEventListener('mousedown',onPressAButton,false);
     stage.addChild(aButtonBmp);
     
-    //Bƒ{ƒ^ƒ“ì¬
+    //Bãƒœã‚¿ãƒ³ä½œæˆ
     bButtonBmp = new createjs.Bitmap(queue.getResult("bButtonImg"));
     //bButtonBmp.x = 370;
     //bButtonBmp.y = 330;
@@ -351,47 +351,47 @@ function handleComplete(event){
     bButtonBmp.addEventListener('mousedown',onPressBButton,false);
     stage.addChild(bButtonBmp);
 
-    //ƒƒbƒZ[ƒW‚ğƒŠƒŠ[ƒX‚µ‚ÄÄ”z’u
+    //ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ãƒªãƒªãƒ¼ã‚¹ã—ã¦å†é…ç½®
     stage.removeChild(message);
     message.text = ""
     stage.addChild(message);
     //message.x = 0;
     //message.y = 0;
 
-    //30FPS‚ÅƒXƒ^[ƒg
+    //30FPSã§ã‚¹ã‚¿ãƒ¼ãƒˆ
     createjs.Ticker.setFPS(30);
     createjs.Ticker.addListener(this);
 
-    //ƒL[‚ª‰Ÿ‚³‚ê‚½‚ÌƒCƒxƒ“ƒgƒŠƒXƒi[‚Ì“o˜^
+    //ã‚­ãƒ¼ãŒæŠ¼ã•ã‚ŒãŸæ™‚ã®ã‚¤ãƒ™ãƒ³ãƒˆãƒªã‚¹ãƒŠãƒ¼ã®ç™»éŒ²
     document.addEventListener('keydown', handleKeyDown, false);
-    //ƒL[‚ª—£‚³‚ê‚½‚ÌƒCƒxƒ“ƒgƒŠƒXƒi[‚Ì“o˜^
+    //ã‚­ãƒ¼ãŒé›¢ã•ã‚ŒãŸæ™‚ã®ã‚¤ãƒ™ãƒ³ãƒˆãƒªã‚¹ãƒŠãƒ¼ã®ç™»éŒ²
     document.addEventListener('keyup', handleKeyUp, false);
 }
 
-//ƒL[ƒ{[ƒh‚ÌƒL[‚ª‰Ÿ‚³‚ê‚½‚Ìˆ—
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã®ã‚­ãƒ¼ãŒæŠ¼ã•ã‚ŒãŸæ™‚ã®å‡¦ç†
 function handleKeyDown(event) {
-    if (event.keyCode==40 || event.keyCode==83) {//« s ƒ{ƒ^ƒ“        
-        if (isBattle) return;  //í“¬’†‚ÍˆÚ“®‚Å‚«‚È‚¢
+    if (event.keyCode==40 || event.keyCode==83) {//â†“ s ãƒœã‚¿ãƒ³        
+        if (isBattle) return;  //æˆ¦é—˜ä¸­ã¯ç§»å‹•ã§ããªã„
         keyFlags[0] = true;
-    } else if (event.keyCode==38 || event.keyCode==87) {//ª w ƒ{ƒ^ƒ“
+    } else if (event.keyCode==38 || event.keyCode==87) {//â†‘ w ãƒœã‚¿ãƒ³
         if (isBattle) return;
         keyFlags[1] = true;
-    } else if (event.keyCode==37 || event.keyCode==65) {//© a ƒ{ƒ^ƒ“
+    } else if (event.keyCode==37 || event.keyCode==65) {//â† a ãƒœã‚¿ãƒ³
         if (isBattle) return;
         keyFlags[2] = true;
-    } else if (event.keyCode==39 || event.keyCode==68) {//¨ d ƒ{ƒ^ƒ“
+    } else if (event.keyCode==39 || event.keyCode==68) {//â†’ d ãƒœã‚¿ãƒ³
         if (isBattle) return;
         keyFlags[3] = true;
-    } else if (event.keyCode==66) {//b ƒ{ƒ^ƒ“
+    } else if (event.keyCode==66) {//b ãƒœã‚¿ãƒ³
         changeCharaSpeed();
-    } else if (event.keyCode==90 || event.keyCode==190) {//z . ƒ{ƒ^ƒ“
+    } else if (event.keyCode==90 || event.keyCode==190) {//z . ãƒœã‚¿ãƒ³
         talkToNPC();
     }
 }
 //talkToNPC()
-//ƒrƒbƒgƒ}ƒbƒvƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½‚Ìˆ—
+//ãƒ“ãƒƒãƒˆãƒãƒƒãƒ—ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸæ™‚ã®å‡¦ç†
 function onPressLeftButton(event) {
-    //í“¬’†‚ÍˆÚ“®‚³‚¹‚È‚¢
+    //æˆ¦é—˜ä¸­ã¯ç§»å‹•ã•ã›ãªã„
     if (isBattle) return;
     keyFlags[2] = true;
     event.addEventListener("mouseup", releaseLeftButton);
@@ -416,28 +416,28 @@ function onPressAButton(event) {
     event.addEventListener("mouseup", releaseAButton);
 }
 
-//‘€ìƒLƒƒƒ‰‚ÌˆÚ“®ƒXƒs[ƒh‚ğ•Ï‰»‚³‚¹‚Ü‚·
+//æ“ä½œã‚­ãƒ£ãƒ©ã®ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰ã‚’å¤‰åŒ–ã•ã›ã¾ã™
 function onPressBButton(event) {
     changeCharaSpeed();
     event.addEventListener("mouseup", releaseBButton);
 }
 
-//ƒL[ƒ{[ƒh‚ÌƒL[‚ª—£‚³‚ê‚½‚Ìˆ—
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã®ã‚­ãƒ¼ãŒé›¢ã•ã‚ŒãŸæ™‚ã®å‡¦ç†
 function handleKeyUp(event) {
-    if (event.keyCode==40 || event.keyCode==83) {//« s ƒ{ƒ^ƒ“
+    if (event.keyCode==40 || event.keyCode==83) {//â†“ s ãƒœã‚¿ãƒ³
         keyFlags[0] = false;
-    } else if (event.keyCode==38 || event.keyCode==87) {//ª w ƒ{ƒ^ƒ“
+    } else if (event.keyCode==38 || event.keyCode==87) {//â†‘ w ãƒœã‚¿ãƒ³
         keyFlags[1] = false;
-    } else if (event.keyCode==37 || event.keyCode==65) {//© a ƒ{ƒ^ƒ“
+    } else if (event.keyCode==37 || event.keyCode==65) {//â† a ãƒœã‚¿ãƒ³
         keyFlags[2] = false;
-    } else if (event.keyCode==39 || event.keyCode==68) {//¨ d ƒ{ƒ^ƒ“
+    } else if (event.keyCode==39 || event.keyCode==68) {//â†’ d ãƒœã‚¿ãƒ³
         keyFlags[3] = false;
-    } else if (event.keyCode==66) {//b ƒ{ƒ^ƒ“
+    } else if (event.keyCode==66) {//b ãƒœã‚¿ãƒ³
         message.text = "";
-    } else if (event.keyCode==90 || event.keyCode==190) {//z . ƒ{ƒ^ƒ“
+    } else if (event.keyCode==90 || event.keyCode==190) {//z . ãƒœã‚¿ãƒ³
     }
 }
-//ƒrƒbƒgƒ}ƒbƒvƒ{ƒ^ƒ“‚ªƒŠƒŠ[ƒX‚³‚ê‚½‚Ìˆ—
+//ãƒ“ãƒƒãƒˆãƒãƒƒãƒ—ãƒœã‚¿ãƒ³ãŒãƒªãƒªãƒ¼ã‚¹ã•ã‚ŒãŸæ™‚ã®å‡¦ç†
 function releaseLeftButton(event) {
     keyFlags[2] = false;
 }
@@ -457,36 +457,36 @@ function releaseBButton(event) {
 }
 
 function changeCharaSpeed() {
-    if (isGameOver) return; //ƒQ[ƒ€ƒI[ƒo[‚Í‘€ì‚Å‚«‚È‚¢‚æ‚¤‚É‚·‚é
+    if (isGameOver) return; //ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼æ™‚ã¯æ“ä½œã§ããªã„ã‚ˆã†ã«ã™ã‚‹
    
-    if ((mapNumber == 1 || mapNumber == 3) && mapState == 1) { //ƒ}ƒbƒv1‚Ü‚½‚Íƒ}ƒbƒv3‚Å‰ï˜b’†‚ÉBƒ{ƒ^ƒ“‰Ÿ‰º‚Å‰ï˜bƒEƒBƒ“ƒhƒE‚ğ•Â‚¶‚é
+    if ((mapNumber == 1 || mapNumber == 3) && mapState == 1) { //ãƒãƒƒãƒ—1ã¾ãŸã¯ãƒãƒƒãƒ—3ã§ä¼šè©±ä¸­ã«Bãƒœã‚¿ãƒ³æŠ¼ä¸‹ã§ä¼šè©±ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’é–‰ã˜ã‚‹
         closeTalkingScene(); 
         mapState = 0;
         return;
     }
 
-    //‘€ìƒLƒƒƒ‰‚ªƒ}ƒbƒvƒ`ƒbƒv‚É‚¿‚å‚¤‚Ç‚¨‚³‚Ü‚Á‚Ä‚¢‚é‚Æ‚«‚Ì‚İ‘€ì‰Â”\
-    //À•W‚ÌŒvZ‚Ì‚¸‚ê‚ğ‚Ó‚¹‚®‚½‚ß(‚½‚Ô‚ñ)
+    //æ“ä½œã‚­ãƒ£ãƒ©ãŒãƒãƒƒãƒ—ãƒãƒƒãƒ—ã«ã¡ã‚‡ã†ã©ãŠã•ã¾ã£ã¦ã„ã‚‹ã¨ãã®ã¿æ“ä½œå¯èƒ½
+    //åº§æ¨™ã®è¨ˆç®—ã®ãšã‚Œã‚’ãµã›ããŸã‚(ãŸã¶ã‚“)
     if ((charaX % 32) == 0 && (charaY % 32) == 0) {
         if (charaSpeed == 4) {
             charaSpeed = 8;
-            message.text = "B ƒ_ƒbƒVƒ… !";
+            message.text = "B ãƒ€ãƒƒã‚·ãƒ¥ !";
         } else if (charaSpeed == 8) {
             charaSpeed = 16;
-            message.text = "’Êí‚Ì‚R”{‚Ì“®‚«!!!";
+            message.text = "é€šå¸¸ã®ï¼“å€ã®å‹•ã!!!";
         } else if (charaSpeed == 16) {
             charaSpeed = 4;
-            message.text = "’Êí‚ÌˆÚ“®‘¬“x‚É‚È‚è‚Ü‚µ‚½";
+            message.text = "é€šå¸¸ã®ç§»å‹•é€Ÿåº¦ã«ãªã‚Šã¾ã—ãŸ";
         } 
     }
 }
 
 function talkToNPC() {
 
-    //‘€ìƒLƒƒƒ‰‚ªƒ}ƒbƒvƒ`ƒbƒv‚É‚¿‚å‚¤‚Ç‚¨‚³‚Ü‚Á‚Ä‚¢‚é‚Æ‚«‚Ì‚İ‘€ì‰Â”\
-    //À•W‚ÌŒvZ‚Ì‚¸‚ê‚ğ‚Ó‚¹‚®‚½‚ß(‚½‚Ô‚ñ)
+    //æ“ä½œã‚­ãƒ£ãƒ©ãŒãƒãƒƒãƒ—ãƒãƒƒãƒ—ã«ã¡ã‚‡ã†ã©ãŠã•ã¾ã£ã¦ã„ã‚‹ã¨ãã®ã¿æ“ä½œå¯èƒ½
+    //åº§æ¨™ã®è¨ˆç®—ã®ãšã‚Œã‚’ãµã›ããŸã‚(ãŸã¶ã‚“)
     if ((charaX % 32) == 0 && (charaY % 32) == 0) {
-        if (isGameOver) return; //ƒQ[ƒ€ƒI[ƒo[‚Í‘€ì‚Å‚«‚È‚¢‚æ‚¤‚É‚·‚é
+        if (isGameOver) return; //ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼æ™‚ã¯æ“ä½œã§ããªã„ã‚ˆã†ã«ã™ã‚‹
 
         var x;
         var y;
@@ -495,44 +495,44 @@ function talkToNPC() {
 
         var talkingMessageTxt;
 
-        //ƒ}ƒbƒv‚P‚Ìˆ—@ƒXƒ^[ƒg¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+        //ãƒãƒƒãƒ—ï¼‘ã®å‡¦ç†ã€€ã‚¹ã‚¿ãƒ¼ãƒˆâ– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– 
         if (mapNumber == 1) {
                 if (mapState == 0) {
                     closeTalkingScene(); 
-	            //ƒ}ƒbƒv1‚Å‘m—µ‚É˜b‚µ‚©‚¯‚½ê‡
+	            //ãƒãƒƒãƒ—1ã§åƒ§ä¾¶ã«è©±ã—ã‹ã‘ãŸå ´åˆ
 	            if ((x == 8 && y == 2 && prevDirection == 1) || (x == 7 && y == 1 && prevDirection == 3)) {
                         isTalking = true;
-                        //‰ï˜bƒƒbƒZ[ƒW‚ğ•\¦
-                        talkingMessageTxt = "‚¨‚¨A‚æ‚­‚¼‚Ü‚¢‚Á‚½" + "\n"
-                                          + "—EÒƒuƒŒƒCƒ”!!!" + "\n"
+                        //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤º
+                        talkingMessageTxt = "ãŠãŠã€ã‚ˆããã¾ã„ã£ãŸ" + "\n"
+                                          + "å‹‡è€…ãƒ–ãƒ¬ã‚¤ãƒ´!!!" + "\n"
                                           + "\n"
-                                          + "‚»‚È‚½‚É‚Í‚º‚Ğ‘º‚Å–\‚ê‚Ü‚í‚Á‚Ä‚¢‚é" + "\n"
-                                          + "u‚µ‚©‚Î‚Ëv‚Ìƒ{ƒX‚ğ“|‚µ‚Ä—~‚µ‚¢" + "\n"
-                                          + "‚±‚±‚æ‚è‰º‘¤‚Ìu‚µ‚©‚Î‚Ëv‚Ì‘ƒŒA‚Ì‰œ‚É" + "\n"
-                                          + "uƒ{ƒX‚µ‚©‚Î‚Ëv‚Í‚¢‚é‚æ‚¤‚¶‚á" + "\n"
-                                          + "(2‰æ–Ê–Ú)" + "\n"
+                                          + "ããªãŸã«ã¯ãœã²æ‘ã§æš´ã‚Œã¾ã‚ã£ã¦ã„ã‚‹" + "\n"
+                                          + "ã€Œã—ã‹ã°ã­ã€ã®ãƒœã‚¹ã‚’å€’ã—ã¦æ¬²ã—ã„" + "\n"
+                                          + "ã“ã“ã‚ˆã‚Šä¸‹å´ã®ã€Œã—ã‹ã°ã­ã€ã®å·£çªŸã®å¥¥ã«" + "\n"
+                                          + "ã€Œãƒœã‚¹ã—ã‹ã°ã­ã€ã¯ã„ã‚‹ã‚ˆã†ã˜ã‚ƒ" + "\n"
+                                          + "(2ç”»é¢ç›®)" + "\n"
                                           + "\n"
-                                          + "u‚µ‚©‚Î‚Ëv‚ğ“|‚·‚Æè‚É“ü‚éƒ{[ƒ“‚ğ" + "\n"
-                                          + "”\—Í‹­‰»‚Ì”é–ò‚ÆŒğŠ·‚·‚é‚±‚Æ‚ª‰Â”\‚¶‚á" + "\n"
-                                          + "(3‰æ–Ê–Ú)" + "\n"
+                                          + "ã€Œã—ã‹ã°ã­ã€ã‚’å€’ã™ã¨æ‰‹ã«å…¥ã‚‹ãƒœãƒ¼ãƒ³ã‚’" + "\n"
+                                          + "èƒ½åŠ›å¼·åŒ–ã®ç§˜è–¬ã¨äº¤æ›ã™ã‚‹ã“ã¨ãŒå¯èƒ½ã˜ã‚ƒ" + "\n"
+                                          + "(3ç”»é¢ç›®)" + "\n"
                                           + "\n";
 
                         initTalkingScene(talkingMessageTxt);
                         mapState = 1;
-                    } else { //˜b‚µ‚©‚¯‚éˆÈŠO‚ÌêŠ‚ÅŒˆ’èƒ{ƒ^ƒ“‰Ÿ‰º
+                    } else { //è©±ã—ã‹ã‘ã‚‹ä»¥å¤–ã®å ´æ‰€ã§æ±ºå®šãƒœã‚¿ãƒ³æŠ¼ä¸‹æ™‚
                         isTalking = true;
-                        //—EÒƒXƒe[ƒ^ƒX‚ğ•\¦
-                        talkingMessageTxt = "ƒXƒe[ƒ^ƒX" + "\n"
-                                          + "–¼‘OF—EÒƒuƒŒƒCƒ”" + "\n"
+                        //å‹‡è€…ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’è¡¨ç¤º
+                        talkingMessageTxt = "ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹" + "\n"
+                                          + "åå‰ï¼šå‹‡è€…ãƒ–ãƒ¬ã‚¤ãƒ´" + "\n"
                                           + "\n"
-                                          + "ƒŒƒxƒ‹F  " + yuushaParam.level + "\n"
-                                          + "Å‘åƒ‰ƒCƒtƒ|ƒCƒ“ƒgF   " + yuushaParam.maxLifePoint + "\n"
-                                          + "UŒ‚—ÍF  " + yuushaParam.attackPoint + "\n"
-                                          + "–hŒä—ÍF  " + yuushaParam.defencePoint + "\n"
+                                          + "ãƒ¬ãƒ™ãƒ«ï¼š  " + yuushaParam.level + "\n"
+                                          + "æœ€å¤§ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆï¼š   " + yuushaParam.maxLifePoint + "\n"
+                                          + "æ”»æ’ƒåŠ›ï¼š  " + yuushaParam.attackPoint + "\n"
+                                          + "é˜²å¾¡åŠ›ï¼š  " + yuushaParam.defencePoint + "\n"
                                           + "\n"
-                                          + "Šƒ{[ƒ“F  " + yuushaParam.bone + "\n"
+                                          + "æ‰€æŒãƒœãƒ¼ãƒ³ï¼š  " + yuushaParam.bone + "\n"
                                           + "\n"
-                                          + "ƒmƒbƒNƒAƒEƒg‰ñ”F  " + yuushaParam.knockoutCnt + "\n"
+                                          + "ãƒãƒƒã‚¯ã‚¢ã‚¦ãƒˆå›æ•°ï¼š  " + yuushaParam.knockoutCnt + "\n"
                                           + "\n";
                         initTalkingScene(talkingMessageTxt);
                         mapState = 1;
@@ -542,34 +542,34 @@ function talkToNPC() {
                     mapState = 0;
                 }
 
-        //ƒ}ƒbƒv‚P‚Ìˆ—@ƒGƒ“ƒh¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+        //ãƒãƒƒãƒ—ï¼‘ã®å‡¦ç†ã€€ã‚¨ãƒ³ãƒ‰â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– 
         
-        //ƒ}ƒbƒv‚Q‚Ìˆ—@ƒXƒ^[ƒg¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+        //ãƒãƒƒãƒ—ï¼’ã®å‡¦ç†ã€€ã‚¹ã‚¿ãƒ¼ãƒˆâ– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– 
         } else if (mapNumber == 2) {
                 if (!isBattle) {
                     isTalking = false;
-                    initBattleScene("‚µ‚©‚Î‚Ë‚ª‚ ‚ç‚í‚ê‚½III" + "\n\n\n" + "—EÒƒ‰ƒCƒtƒ|ƒCƒ“ƒg "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n");
+                    initBattleScene("ã—ã‹ã°ã­ãŒã‚ã‚‰ã‚ã‚ŒãŸï¼ï¼ï¼" + "\n\n\n" + "å‹‡è€…ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆ "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n");
 
                     if (x == 8) { 
 
-                        enemyParam = new Enemy("ƒŒƒxƒ‹‚P‚µ‚©‚Î‚Ë", 35, 35, 5, 4, 10);
+                        enemyParam = new Enemy("ãƒ¬ãƒ™ãƒ«ï¼‘ã—ã‹ã°ã­", 35, 35, 5, 4, 10);
 
                     } else if (x < 8){
 
-                        enemyParam = new Enemy("ƒŒƒxƒ‹‚Q‚µ‚©‚Î‚Ë", 40, 40, 10, 8, 20);
+                        enemyParam = new Enemy("ãƒ¬ãƒ™ãƒ«ï¼’ã—ã‹ã°ã­", 40, 40, 10, 8, 20);
 
                     } else if ( (x == 14 || x == 15) && (y == 9 || y == 10) ) {
 
-                        enemyParam = new Enemy("ƒ{ƒX‚µ‚©‚Î‚Ë", 85, 85, 30, 25, 160);
-                        //enemyParam = new Enemy("ƒ{ƒX‚µ‚©‚Î‚Ë", 1, 1, 2, 2, 160); //ƒeƒXƒg—p
+                        enemyParam = new Enemy("ãƒœã‚¹ã—ã‹ã°ã­", 85, 85, 30, 25, 160);
+                        //enemyParam = new Enemy("ãƒœã‚¹ã—ã‹ã°ã­", 1, 1, 2, 2, 160); //ãƒ†ã‚¹ãƒˆç”¨
 
                     } else if ((8 < x && x < 17) && (5 < y && y < 14) ) {
 
-                        enemyParam = new Enemy("ƒŒƒxƒ‹‚S‚µ‚©‚Î‚Ë", 65, 65, 20, 16, 80);
+                        enemyParam = new Enemy("ãƒ¬ãƒ™ãƒ«ï¼”ã—ã‹ã°ã­", 65, 65, 20, 16, 80);
 
                     } else if (x > 8) {
 
-                        enemyParam = new Enemy("ƒŒƒxƒ‹‚R‚µ‚©‚Î‚Ë", 50, 50, 15, 12, 40);
+                        enemyParam = new Enemy("ãƒ¬ãƒ™ãƒ«ï¼“ã—ã‹ã°ã­", 50, 50, 15, 12, 40);
 
                     }
                     isBattle = true;
@@ -579,25 +579,25 @@ function talkToNPC() {
                     //var damage = Math.floor(Math.random()*10);
                     if(yuushaParam.battleYuushaTurn) {
                         if (enemyParam.lifePoint < 0) {
-                            battleMessage.text = "‚µ‚©‚Î‚Ë‚ğ‚½‚¨‚µ‚½I" + "\n"
-                                               + "—EÒ‚Í"+ enemyParam.bone + "ƒ{[ƒ“‚ğ‚Ä‚¢‚É‚¢‚ê‚½II" + "\n"
+                            battleMessage.text = "ã—ã‹ã°ã­ã‚’ãŸãŠã—ãŸï¼" + "\n"
+                                               + "å‹‡è€…ã¯"+ enemyParam.bone + "ãƒœãƒ¼ãƒ³ã‚’ã¦ã„ã«ã„ã‚ŒãŸï¼ï¼" + "\n"
                                                + "\n"
-                                               + "—EÒƒ‰ƒCƒtƒ|ƒCƒ“ƒg "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n"
+                                               + "å‹‡è€…ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆ "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n"
                                                + "\n";
 
                             yuushaParam.bone = yuushaParam.bone + enemyParam.bone;
-                            yuushaParam.lifePoint = yuushaParam.maxLifePoint; //í“¬I—¹Œã‚Í‘Ì—Í‰ñ•œ
-                            //‚µ‚©‚Î‚Ë‰æ‘œ‚ğƒŠƒŠ[ƒX
+                            yuushaParam.lifePoint = yuushaParam.maxLifePoint; //æˆ¦é—˜çµ‚äº†å¾Œã¯ä½“åŠ›å›å¾©
+                            //ã—ã‹ã°ã­ç”»åƒã‚’ãƒªãƒªãƒ¼ã‚¹
                             stage.removeChild(shikabane);
                             isBattleOver = true;
 
-                            if (enemyParam.name =="ƒ{ƒX‚µ‚©‚Î‚Ë") {
+                            if (enemyParam.name =="ãƒœã‚¹ã—ã‹ã°ã­") {
                                 battleMessage.text = battleMessage.text 
                                                    + "\n" 
-                                                   + "ƒ{ƒX‚µ‚©‚Î‚Ë‚ğ“|‚µ‚½IIII" 
+                                                   + "ãƒœã‚¹ã—ã‹ã°ã­ã‚’å€’ã—ãŸï¼ï¼ï¼ï¼" 
                                                    + "\n" 
                                                    + "\n" 
-                                                   +"™š™šGAME CLEARš™š™"
+                                                   +"â˜†â˜…â˜†â˜…GAME CLEARâ˜…â˜†â˜…â˜†"
                                 isGameOver = true;
                             }  
                             return; 
@@ -609,14 +609,14 @@ function talkToNPC() {
                             damage = 0;
                         }
 
-                        battleMessage.text = "—EÒ‚ÌUŒ‚" + "\n"
-                                           + enemyParam.name  + "‚Í"+ damage + "‚Ìƒ_ƒ[ƒW‚ğ‚¤‚¯‚½" + "\n"
+                        battleMessage.text = "å‹‡è€…ã®æ”»æ’ƒ" + "\n"
+                                           + enemyParam.name  + "ã¯"+ damage + "ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’ã†ã‘ãŸ" + "\n"
                                            + "\n"
-                                           + "—EÒƒ‰ƒCƒtƒ|ƒCƒ“ƒg "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n"
+                                           + "å‹‡è€…ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆ "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n"
                                            + "\n";
                         enemyParam.lifePoint = enemyParam.lifePoint - damage;  
 
-                        //‚µ‚©‚Î‚Ë‰æ‘œ‚ğ“_–Å‚³‚¹‚Äƒ_ƒ[ƒW‚ğ‚ ‚½‚¦‚½•\Œ»‚É‚µ‚Ä‚¢‚Ü‚·
+                        //ã—ã‹ã°ã­ç”»åƒã‚’ç‚¹æ»…ã•ã›ã¦ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’ã‚ãŸãˆãŸè¡¨ç¾ã«ã—ã¦ã„ã¾ã™
                         shikabane.visible = false; 
                         setTimeout(function(){ shikabane.visible = true; }, 130);
              
@@ -630,23 +630,23 @@ function talkToNPC() {
                         yuushaParam.lifePoint = yuushaParam.lifePoint - damage;
                         if(yuushaParam.lifePoint <= 0) yuushaParam.lifePoint = 0;
 
-                        battleMessage.text = enemyParam.name  + "‚ÌUŒ‚" + "\n"
-                                           + "—EÒ‚Í" + damage + "‚Ìƒ_ƒ[ƒW‚ğ‚¤‚¯‚½" + "\n"
+                        battleMessage.text = enemyParam.name  + "ã®æ”»æ’ƒ" + "\n"
+                                           + "å‹‡è€…ã¯" + damage + "ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’ã†ã‘ãŸ" + "\n"
                                            + "\n"
-                                           + "—EÒƒ‰ƒCƒtƒ|ƒCƒ“ƒg "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n"
+                                           + "å‹‡è€…ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆ "+ yuushaParam.maxLifePoint + "/" + yuushaParam.lifePoint + "\n"
                                            + "\n";
 
                         if(yuushaParam.lifePoint == 0) {
                             battleMessage.text = battleMessage.text
-                                               + "—EÒ‚ÍƒmƒbƒNƒAƒEƒg‚³‚ê‚Ä‚µ‚Ü‚Á‚½I" + "\n"
-                                               + "‚µ‚©‚Î‚Ë‚Éƒ{[ƒ“‚·‚×‚Ä‚ğ‚Æ‚ç‚ê‚Ä‚µ‚Ü‚Á‚½II" + "\n"
-                                               + "‚µ‚©‚Î‚Ë‚Í–‘«‚»‚¤‚É‹‚Á‚Ä‚¢‚Á‚½III" + "\n"
+                                               + "å‹‡è€…ã¯ãƒãƒƒã‚¯ã‚¢ã‚¦ãƒˆã•ã‚Œã¦ã—ã¾ã£ãŸï¼" + "\n"
+                                               + "ã—ã‹ã°ã­ã«ãƒœãƒ¼ãƒ³ã™ã¹ã¦ã‚’ã¨ã‚‰ã‚Œã¦ã—ã¾ã£ãŸï¼ï¼" + "\n"
+                                               + "ã—ã‹ã°ã­ã¯æº€è¶³ãã†ã«å»ã£ã¦ã„ã£ãŸï¼ï¼ï¼" + "\n"
                                                + "\n";
                             //isGameOver = true;
                             yuushaParam.bone = 0;
                             yuushaParam.knockoutCnt = yuushaParam.knockoutCnt + 1;
-                            yuushaParam.lifePoint = yuushaParam.maxLifePoint; //í“¬I—¹Œã‚Í‘Ì—Í‰ñ•œ
-                            //‚µ‚©‚Î‚Ë‰æ‘œ‚ğƒŠƒŠ[ƒX
+                            yuushaParam.lifePoint = yuushaParam.maxLifePoint; //æˆ¦é—˜çµ‚äº†å¾Œã¯ä½“åŠ›å›å¾©
+                            //ã—ã‹ã°ã­ç”»åƒã‚’ãƒªãƒªãƒ¼ã‚¹
                             stage.removeChild(shikabane);
                             isBattleOver = true;
                             return; 
@@ -658,49 +658,49 @@ function talkToNPC() {
                     closeBattleScene();
                     isBattleOver = false;
                 }
-        //ƒ}ƒbƒv‚Q‚Ìˆ—@ƒGƒ“ƒh¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+        //ãƒãƒƒãƒ—ï¼’ã®å‡¦ç†ã€€ã‚¨ãƒ³ãƒ‰â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– 
         
-        //ƒ}ƒbƒv‚R‚Ìˆ—@ƒXƒ^[ƒg¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+        //ãƒãƒƒãƒ—ï¼“ã®å‡¦ç†ã€€ã‚¹ã‚¿ãƒ¼ãƒˆâ– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– 
         } else if (mapNumber == 3) {
 
                 if (mapState == 0) {
-	            //ƒ}ƒbƒv3‚Å–‚—‚É˜b‚µ‚©‚¯‚½ê‡
+	            //ãƒãƒƒãƒ—3ã§é­”å¥³ã«è©±ã—ã‹ã‘ãŸå ´åˆ
 	            if ((x == 4 && y == 15 && prevDirection == 0) || (x == 5 && y == 16 && prevDirection == 2) || (x == 4 && y == 17 && prevDirection == 1)) {
 	                if ( yuushaParam.level < yuushaLevelParam.length) {
                             isTalking = true;
-                            //‰ï˜bƒƒbƒZ[ƒW‚ğ•\¦
-                            talkingMessageTxt = "•sv‹c‚Èƒ{[ƒ“‚Å‚Â‚­‚é" + "\n"
-                                              + "”é–ò‚Í‚¢‚ç‚ñ‚©‚ËH" + "\n"
-                                              + "ƒŒƒxƒ‹" + yuushaParam.level + "”é–òF " + (yuushaParam.level * 20) +"ƒ{[ƒ“" + "\n"
+                            //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤º
+                            talkingMessageTxt = "ä¸æ€è­°ãªãƒœãƒ¼ãƒ³ã§ã¤ãã‚‹" + "\n"
+                                              + "ç§˜è–¬ã¯ã„ã‚‰ã‚“ã‹ã­ï¼Ÿ" + "\n"
+                                              + "ãƒ¬ãƒ™ãƒ«" + yuushaParam.level + "ç§˜è–¬ï¼š " + (yuushaParam.level * 20) +"ãƒœãƒ¼ãƒ³" + "\n"
                                               + "\n"
-                                              + "Šƒ{[ƒ“F " + yuushaParam.bone + "\n"
+                                              + "æ‰€æŒãƒœãƒ¼ãƒ³ï¼š " + yuushaParam.bone + "\n"
                                               + "";
                             initTalkingScene(talkingMessageTxt);
                             mapState = 1;
 	                } else {
                             isTalking = true;
-                            //‰ï˜bƒƒbƒZ[ƒW‚ğ•\¦
-                            talkingMessageTxt = "‚»‚È‚½‚Í‚à‚¤\•ª‚É‹­‚¢I" + "\n"
-                                              + "‚±‚êˆÈã‚Ì”é–ò‚Í‚à‚¤•K—v‚È‚¢‚¾‚ë‚¤" + "\n"
+                            //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤º
+                            talkingMessageTxt = "ããªãŸã¯ã‚‚ã†ååˆ†ã«å¼·ã„ï¼" + "\n"
+                                              + "ã“ã‚Œä»¥ä¸Šã®ç§˜è–¬ã¯ã‚‚ã†å¿…è¦ãªã„ã ã‚ã†" + "\n"
                                               + "\n"
                                               + "";
                             initTalkingScene(talkingMessageTxt);
                             mapState = 2;
 	                }
-                    } else { //ƒ}ƒbƒv3‚Å–‚—‚É˜b‚µ‚©‚éˆÈŠO‚ÌêŠ‚ÅŒˆ’èƒ{ƒ^ƒ“‰Ÿ‰º
+                    } else { //ãƒãƒƒãƒ—3ã§é­”å¥³ã«è©±ã—ã‹ã‚‹ä»¥å¤–ã®å ´æ‰€ã§æ±ºå®šãƒœã‚¿ãƒ³æŠ¼ä¸‹æ™‚
                         isTalking = true;
-                        //—EÒƒXƒe[ƒ^ƒX‚ğ•\¦
-                        talkingMessageTxt = "ƒXƒe[ƒ^ƒX" + "\n"
-                                          + "–¼‘OF—EÒƒuƒŒƒCƒ”" + "\n"
+                        //å‹‡è€…ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’è¡¨ç¤º
+                        talkingMessageTxt = "ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹" + "\n"
+                                          + "åå‰ï¼šå‹‡è€…ãƒ–ãƒ¬ã‚¤ãƒ´" + "\n"
                                           + "\n"
-                                          + "ƒŒƒxƒ‹F" + yuushaParam.level + "\n"
-                                          + "Å‘åƒ‰ƒCƒtƒ|ƒCƒ“ƒgF" + yuushaParam.maxLifePoint + "\n"
-                                          + "UŒ‚—ÍF" + yuushaParam.attackPoint + "\n"
-                                          + "–hŒä—ÍF" + yuushaParam.defencePoint + "\n"
+                                          + "ãƒ¬ãƒ™ãƒ«ï¼š" + yuushaParam.level + "\n"
+                                          + "æœ€å¤§ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆï¼š" + yuushaParam.maxLifePoint + "\n"
+                                          + "æ”»æ’ƒåŠ›ï¼š" + yuushaParam.attackPoint + "\n"
+                                          + "é˜²å¾¡åŠ›ï¼š" + yuushaParam.defencePoint + "\n"
                                           + "\n"
-                                          + "Šƒ{[ƒ“F  " + yuushaParam.bone + "\n"
+                                          + "æ‰€æŒãƒœãƒ¼ãƒ³ï¼š  " + yuushaParam.bone + "\n"
                                           + "\n"
-                                          + "ƒmƒbƒNƒAƒEƒg‰ñ”F  " + yuushaParam.knockoutCnt + "\n"
+                                          + "ãƒãƒƒã‚¯ã‚¢ã‚¦ãƒˆå›æ•°ï¼š  " + yuushaParam.knockoutCnt + "\n"
                                           + "\n";
                         initTalkingScene(talkingMessageTxt);
                         mapState = 2;
@@ -709,29 +709,29 @@ function talkToNPC() {
 
                     if (yuushaParam.bone >= (yuushaParam.level * 20)) {
 
-                        //—EÒ‚ÌƒŒƒxƒ‹‚ğã‚°‚é‘O‚ÉƒŒƒxƒ‹‚ğ‚à‚Æ‚É‚µ‚½Šƒ{[ƒ“‚ÌŒ¸Z‚ğs‚È‚Á‚Ä‚¨‚­
+                        //å‹‡è€…ã®ãƒ¬ãƒ™ãƒ«ã‚’ä¸Šã’ã‚‹å‰ã«ãƒ¬ãƒ™ãƒ«ã‚’ã‚‚ã¨ã«ã—ãŸæ‰€æŒãƒœãƒ¼ãƒ³ã®æ¸›ç®—ã‚’è¡Œãªã£ã¦ãŠã
                         yuushaParam.bone = yuushaParam.bone - (yuushaParam.level * 20);
 
-                        //yuushaParam@¨@(lifePoint, maxLifePoint, attackPoint, defencePoint, bone)
+                        //yuushaParamã€€â†’ã€€(lifePoint, maxLifePoint, attackPoint, defencePoint, bone)
                         yuushaParam.level = yuushaParam.level + 1;
                         yuushaParam.lifePoint    = yuushaLevelParam[yuushaParam.level-1][0]
                         yuushaParam.maxLifePoint = yuushaLevelParam[yuushaParam.level-1][1]
                         yuushaParam.attackPoint  = yuushaLevelParam[yuushaParam.level-1][2]
                         yuushaParam.defencePoint = yuushaLevelParam[yuushaParam.level-1][3]
 
-                        talkingMessage.text = "ƒŒƒxƒ‹" + (yuushaParam.level - 1) + "”é–ò‚ğ‚Ä‚É‚¢‚ê‚½!" + "\n"
-                                            + "—EÒ‚ÍƒŒƒxƒ‹" + (yuushaParam.level - 1) + "”é–ò‚ğg—p‚µ‚½!!" + "\n"
+                        talkingMessage.text = "ãƒ¬ãƒ™ãƒ«" + (yuushaParam.level - 1) + "ç§˜è–¬ã‚’ã¦ã«ã„ã‚ŒãŸ!" + "\n"
+                                            + "å‹‡è€…ã¯ãƒ¬ãƒ™ãƒ«" + (yuushaParam.level - 1) + "ç§˜è–¬ã‚’ä½¿ç”¨ã—ãŸ!!" + "\n"
                                             + "\n"
-                                            + "—EÒ‚ÍƒŒƒxƒ‹" + yuushaParam.level + "‚É‚È‚Á‚½!!!" + "\n"
+                                            + "å‹‡è€…ã¯ãƒ¬ãƒ™ãƒ«" + yuushaParam.level + "ã«ãªã£ãŸ!!!" + "\n"
                                             + "\n"
-                                            + "ƒ‰ƒCƒtƒ|ƒCƒ“ƒg‚ª" + yuushaParam.maxLifePoint + "‚É‚È‚Á‚½!" + "\n"
-                                            + "UŒ‚—Í‚ª" + yuushaParam.attackPoint + "‚É‚È‚Á‚½!" + "\n"
-                                            + "–hŒä—Í‚ª" + yuushaParam.defencePoint + "‚É‚È‚Á‚½!" + "\n"
+                                            + "ãƒ©ã‚¤ãƒ•ãƒã‚¤ãƒ³ãƒˆãŒ" + yuushaParam.maxLifePoint + "ã«ãªã£ãŸ!" + "\n"
+                                            + "æ”»æ’ƒåŠ›ãŒ" + yuushaParam.attackPoint + "ã«ãªã£ãŸ!" + "\n"
+                                            + "é˜²å¾¡åŠ›ãŒ" + yuushaParam.defencePoint + "ã«ãªã£ãŸ!" + "\n"
                                             + "\n"
                                             + "";
                     } else {
-                        talkingMessage.text = "”é–ò‚Ì‚½‚ß‚Ìƒ{[ƒ“‚ª" + "\n"
-                                            + "‚½‚è‚È‚¢‚æ‚¤‚¾" + "\n"
+                        talkingMessage.text = "ç§˜è–¬ã®ãŸã‚ã®ãƒœãƒ¼ãƒ³ãŒ" + "\n"
+                                            + "ãŸã‚Šãªã„ã‚ˆã†ã " + "\n"
                                             + "";
                     }
                     mapState = 2;
@@ -739,22 +739,22 @@ function talkToNPC() {
                     closeTalkingScene(); 
                     mapState = 0;
                 }
-                  //mapState@¨@0: ‰Šúó‘Ô, 1 : ˜b‚µ‚©‚¯‚½ó‘Ô, 2 : w“üŒˆ’èó‘Ô, 3 :w“üƒLƒƒƒ“ƒZƒ‹ó‘Ô
+                  //mapStateã€€â†’ã€€0: åˆæœŸçŠ¶æ…‹, 1 : è©±ã—ã‹ã‘ãŸçŠ¶æ…‹, 2 : è³¼å…¥æ±ºå®šçŠ¶æ…‹, 3 :è³¼å…¥ã‚­ãƒ£ãƒ³ã‚»ãƒ«çŠ¶æ…‹
         } 
-        //ƒ}ƒbƒv‚R‚Ìˆ—@ƒGƒ“ƒh¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+        //ãƒãƒƒãƒ—ï¼“ã®å‡¦ç†ã€€ã‚¨ãƒ³ãƒ‰â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– â– 
        
     }
 }
 
 function initTalkingScene(msgTxt) {
-    //‰ï˜bƒƒbƒZ[ƒW—p‚Ì•”wŒi‚ğ•\¦
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”¨ã®é»’èƒŒæ™¯ã‚’è¡¨ç¤º
     //talkingBackGroundRect.x = 70;
     //talkingBackGroundRect.y = 10;
     talkingBackGroundRect.x = 5;
     talkingBackGroundRect.y = 5;
     stage.addChild(talkingBackGroundRect);
 
-    //‰ï˜bƒƒbƒZ[ƒW‚ğ•\¦
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤º
     talkingMessage.text = msgTxt;
     talkingMessage.x = 20;
     talkingMessage.y = 20;
@@ -762,10 +762,10 @@ function initTalkingScene(msgTxt) {
 }
 
 function closeTalkingScene() {
-    //‰ï˜bƒƒbƒZ[ƒW—p‚Ì•”wŒi•\¦‚ğƒŠƒŠ[ƒX
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”¨ã®é»’èƒŒæ™¯è¡¨ç¤ºã‚’ãƒªãƒªãƒ¼ã‚¹
     stage.removeChild(talkingBackGroundRect);
 
-    //‰ï˜bƒƒbƒZ[ƒW‚ğƒŠƒŠ[ƒX
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ãƒªãƒªãƒ¼ã‚¹
     stage.removeChild(talkingMessage);
 
     isTalking = false;
@@ -776,30 +776,30 @@ function initBattleScene(msgTxt) {
     //isBattle = true;
     isBattleOver = false;
 
-    //í“¬ƒƒbƒZ[ƒW—p‚Ì•”wŒi‚ğ•\¦
+    //æˆ¦é—˜ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”¨ã®é»’èƒŒæ™¯ã‚’è¡¨ç¤º
     battleBackGroundRect.x = 5;
     battleBackGroundRect.y = 5;
     stage.addChild(battleBackGroundRect);
 
-    //‰ï˜bƒƒbƒZ[ƒW‚ğ•\¦
+    //ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤º
     battleMessage.text = msgTxt;
     battleMessage.x = 20;
     battleMessage.y = 20;
     stage.addChild(battleMessage);
 
-    //‚µ‚©‚Î‚Ë‚ÌHP‚ğ‰Šú‰»
+    //ã—ã‹ã°ã­ã®HPã‚’åˆæœŸåŒ–
     enemyHP = 30;
-    //‚µ‚©‚Î‚Ë‰æ‘œ‚ğ•\¦
+    //ã—ã‹ã°ã­ç”»åƒã‚’è¡¨ç¤º
     shikabane.x = 215;
     shikabane.y = 145;
     stage.addChild(shikabane);
 }
 
 function closeBattleScene() {
-    //í“¬ƒƒbƒZ[ƒW—p‚Ì•”wŒi•\¦‚ğƒŠƒŠ[ƒX
+    //æˆ¦é—˜ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ç”¨ã®é»’èƒŒæ™¯è¡¨ç¤ºã‚’ãƒªãƒªãƒ¼ã‚¹
     stage.removeChild(battleBackGroundRect);
 
-    //í“¬ƒƒbƒZ[ƒW‚ğƒŠƒŠ[ƒX
+    //æˆ¦é—˜ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ãƒªãƒªãƒ¼ã‚¹
     stage.removeChild(battleMessage);
 
     isBattle = false;
@@ -807,88 +807,88 @@ function closeBattleScene() {
 
 function tick(){
 
-    if ((charaX % 32) == 0 && (charaY % 32) == 0) { //‘€ìƒLƒƒƒ‰Eƒ}ƒbƒvƒ`ƒbƒv‚Íc‰¡32ƒhƒbƒg‚æ‚è
-        direction = 4; //~‚Ü‚é
+    if ((charaX % 32) == 0 && (charaY % 32) == 0) { //æ“ä½œã‚­ãƒ£ãƒ©ãƒ»ãƒãƒƒãƒ—ãƒãƒƒãƒ—ã¯ç¸¦æ¨ª32ãƒ‰ãƒƒãƒˆã‚ˆã‚Š
+        direction = 4; //æ­¢ã¾ã‚‹
 
-        //‚Æ‚è‚ ‚¦‚¸‚±‚Ì•û–@‚Å—EÒÀ•W‚©‚ç”z—ñƒCƒ“ƒfƒbƒNƒX‚ğİ’è
+        //ã¨ã‚Šã‚ãˆãšã“ã®æ–¹æ³•ã§å‹‡è€…åº§æ¨™ã‹ã‚‰é…åˆ—ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ã‚’è¨­å®š
         var x;
         var y;
         x = Math.floor(charaX/32);
         y = Math.floor(charaY/32); //
-        //ªMath.floor‚Å¬”“_ˆÈ‰ºØ‚èÌ‚Ä
+        //â†‘Math.floorã§å°æ•°ç‚¹ä»¥ä¸‹åˆ‡ã‚Šæ¨ã¦
 
-        if(keyFlags[0]) { //« s ƒ{ƒ^ƒ“
-            //•ûŒüƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½ê‡‚Í‰ï˜bƒƒbƒZ[ƒW‚ğƒNƒ[ƒY
+        if(keyFlags[0]) { //â†“ s ãƒœã‚¿ãƒ³
+            //æ–¹å‘ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸå ´åˆã¯ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ã‚¯ãƒ­ãƒ¼ã‚º
             if(isTalking) closeTalkingScene();
             if (prevDirection != 0) {
                 yuusha.gotoAndPlay("down");
                 prevDirection = 0;
             }
-            if (charaY <= 640-charaSpeed-32 && mapObstacleData[y+1][x] == 0){ //32‚ÍƒLƒƒƒ‰ƒ`ƒbƒv1‚Â•ª‚Ì‚‚³
-            //ˆÚ“®ƒXƒs[ƒh8‚Ìê‡
-            //if (charaY <= 632-32 && mapObstacleData[y+1][x] == 0){ //32‚ÍƒLƒƒƒ‰ƒ`ƒbƒv‚Ì‚‚³ 
-            //c640‚ÆˆÚ“®ƒXƒs[ƒh8‚©‚ç@640-8=632‚æ‚è
-            //ˆÚ“®ƒXƒs[ƒh4‚Ìê‡
-            //if (charaY <= 636-32 && mapObstacleData[y+1][x] == 0){ //32‚ÍƒLƒƒƒ‰ƒ`ƒbƒv‚Ì‚‚³
-            //c640‚ÆˆÚ“®ƒXƒs[ƒh4‚©‚ç@640-4=636‚æ‚è
-                //ª32–20¨640
-                //ªƒ}ƒbƒvƒ`ƒbƒv1ŒÂ•ª‚ÌƒsƒNƒZƒ‹”–ƒ}ƒbƒvƒ`ƒbƒvw’è”z—ñ‚Ìc•ûŒü”
+            if (charaY <= 640-charaSpeed-32 && mapObstacleData[y+1][x] == 0){ //32ã¯ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—1ã¤åˆ†ã®é«˜ã•
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8ã®å ´åˆ
+            //if (charaY <= 632-32 && mapObstacleData[y+1][x] == 0){ //32ã¯ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã®é«˜ã• 
+            //ç¸¦640ã¨ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8ã‹ã‚‰ã€€640-8=632ã‚ˆã‚Š
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4ã®å ´åˆ
+            //if (charaY <= 636-32 && mapObstacleData[y+1][x] == 0){ //32ã¯ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã®é«˜ã•
+            //ç¸¦640ã¨ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4ã‹ã‚‰ã€€640-4=636ã‚ˆã‚Š
+                //â†‘32ï¼Š20â†’640
+                //â†‘ãƒãƒƒãƒ—ãƒãƒƒãƒ—1å€‹åˆ†ã®ãƒ”ã‚¯ã‚»ãƒ«æ•°ï¼Šãƒãƒƒãƒ—ãƒãƒƒãƒ—æŒ‡å®šé…åˆ—ã®ç¸¦æ–¹å‘æ•°
                 direction = 0;
             }
-        } else if (keyFlags[1]) { //ª w ƒ{ƒ^ƒ“
-            //•ûŒüƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½ê‡‚Í‰ï˜bƒƒbƒZ[ƒW‚ğƒNƒ[ƒY
+        } else if (keyFlags[1]) { //â†‘ w ãƒœã‚¿ãƒ³
+            //æ–¹å‘ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸå ´åˆã¯ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ã‚¯ãƒ­ãƒ¼ã‚º
             if(isTalking) closeTalkingScene();
 	    if (prevDirection != 1) { 
                 yuusha.gotoAndPlay("up");
                 prevDirection = 1;
             }
-            if (charaY >= charaSpeed && mapObstacleData[y-1][x] == 0) { //c‚Ìã•ûŒü‚ÉˆÚ“®ƒXƒs[ƒh•ª‚Ì‚‚³‚ª‚ ‚ê‚ÎˆÚ“®
-            //ˆÚ“®ƒXƒs[ƒh8‚Ìê‡
-            //if (charaY >= 8 && mapObstacleData[y-1][x] == 0) { //c‚Ìã•ûŒü‚ÉˆÚ“®ƒXƒs[ƒh8•ª‚Ì‚‚³‚ª‚ ‚ê‚ÎˆÚ“®
-            //ˆÚ“®ƒXƒs[ƒh4‚Ìê‡
-            //if (charaY >= 4 && mapObstacleData[y-1][x] == 0) { //c‚Ìã•ûŒü‚ÉˆÚ“®ƒXƒs[ƒh4•ª‚Ì‚‚³‚ª‚ ‚ê‚ÎˆÚ“®
+            if (charaY >= charaSpeed && mapObstacleData[y-1][x] == 0) { //ç¸¦ã®ä¸Šæ–¹å‘ã«ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰åˆ†ã®é«˜ã•ãŒã‚ã‚Œã°ç§»å‹•
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8ã®å ´åˆ
+            //if (charaY >= 8 && mapObstacleData[y-1][x] == 0) { //ç¸¦ã®ä¸Šæ–¹å‘ã«ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8åˆ†ã®é«˜ã•ãŒã‚ã‚Œã°ç§»å‹•
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4ã®å ´åˆ
+            //if (charaY >= 4 && mapObstacleData[y-1][x] == 0) { //ç¸¦ã®ä¸Šæ–¹å‘ã«ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4åˆ†ã®é«˜ã•ãŒã‚ã‚Œã°ç§»å‹•
                 direction = 1;
             }
-        } else if (keyFlags[2]) { //© a ƒ{ƒ^ƒ“
-            //•ûŒüƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½ê‡‚Í‰ï˜bƒƒbƒZ[ƒW‚ğƒNƒ[ƒY
+        } else if (keyFlags[2]) { //â† a ãƒœã‚¿ãƒ³
+            //æ–¹å‘ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸå ´åˆã¯ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ã‚¯ãƒ­ãƒ¼ã‚º
             if(isTalking) closeTalkingScene();
 	    if (prevDirection != 2) {
                 yuusha.gotoAndPlay("left");
                 prevDirection = 2;
             }
-	    if (charaX >= charaSpeed && mapObstacleData[y][x-1] == 0) { //¶‰¡‚ÉˆÚ“®ƒXƒs[ƒh•ª‚Ì•‚ª‚ ‚ê‚ÎˆÚ“®
-            //ˆÚ“®ƒXƒs[ƒh8‚Ìê‡
-	    //if (charaX >= 8 && mapObstacleData[y][x-1] == 0) { //¶‰¡‚ÉˆÚ“®ƒXƒs[ƒh8•ª‚Ì•‚ª‚ ‚ê‚ÎˆÚ“®
-            //ˆÚ“®ƒXƒs[ƒh4‚Ìê‡
-	    //if (charaX >= 4 && mapObstacleData[y][x-1] == 0) { //¶‰¡‚ÉˆÚ“®ƒXƒs[ƒh4•ª‚Ì•‚ª‚ ‚ê‚ÎˆÚ“®
+	    if (charaX >= charaSpeed && mapObstacleData[y][x-1] == 0) { //å·¦æ¨ªã«ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰åˆ†ã®å¹…ãŒã‚ã‚Œã°ç§»å‹•
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8ã®å ´åˆ
+	    //if (charaX >= 8 && mapObstacleData[y][x-1] == 0) { //å·¦æ¨ªã«ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8åˆ†ã®å¹…ãŒã‚ã‚Œã°ç§»å‹•
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4ã®å ´åˆ
+	    //if (charaX >= 4 && mapObstacleData[y][x-1] == 0) { //å·¦æ¨ªã«ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4åˆ†ã®å¹…ãŒã‚ã‚Œã°ç§»å‹•
                 direction = 2; 
             }
-        } else if (keyFlags[3]) { //¨ d ƒ{ƒ^ƒ“
-            //•ûŒüƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½ê‡‚Í‰ï˜bƒƒbƒZ[ƒW‚ğƒNƒ[ƒY
+        } else if (keyFlags[3]) { //â†’ d ãƒœã‚¿ãƒ³
+            //æ–¹å‘ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸå ´åˆã¯ä¼šè©±ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ã‚¯ãƒ­ãƒ¼ã‚º
             if(isTalking) closeTalkingScene();
 	    if (prevDirection != 3) {
                 yuusha.gotoAndPlay("right");
                 prevDirection = 3;
             }
-	    if (charaX <= 640-charaSpeed-32 && mapObstacleData[y][x+1] == 0) { //32‚ÍƒLƒƒƒ‰ƒ`ƒbƒv1‚Â•ª‚Ì•
-            //ˆÚ“®ƒXƒs[ƒh8‚Ìê‡
-	    //if (charaX <= 632-32 && mapObstacleData[y][x+1] == 0) { //32‚ÍƒLƒƒƒ‰ƒ`ƒbƒv‚Ì•
-            //‰¡640‚ÆˆÚ“®ƒXƒs[ƒh8‚©‚ç@640-8=632‚æ‚è
-            //ˆÚ“®ƒXƒs[ƒh4‚Ìê‡
-	    //if (charaX <= 636-32 && mapObstacleData[y][x+1] == 0) { //32‚ÍƒLƒƒƒ‰ƒ`ƒbƒv‚Ì•
-            //‰¡640‚ÆˆÚ“®ƒXƒs[ƒh4‚©‚ç@640-4=636‚æ‚è
-                //ª32–20¨640
-                //ªƒ}ƒbƒvƒ`ƒbƒv1ŒÂ•ª‚ÌƒsƒNƒZƒ‹”–ƒ}ƒbƒvƒ`ƒbƒvw’è”z—ñ‚Ì‰¡•ûŒü”
+	    if (charaX <= 640-charaSpeed-32 && mapObstacleData[y][x+1] == 0) { //32ã¯ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—1ã¤åˆ†ã®å¹…
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8ã®å ´åˆ
+	    //if (charaX <= 632-32 && mapObstacleData[y][x+1] == 0) { //32ã¯ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã®å¹…
+            //æ¨ª640ã¨ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰8ã‹ã‚‰ã€€640-8=632ã‚ˆã‚Š
+            //ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4ã®å ´åˆ
+	    //if (charaX <= 636-32 && mapObstacleData[y][x+1] == 0) { //32ã¯ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã®å¹…
+            //æ¨ª640ã¨ç§»å‹•ã‚¹ãƒ”ãƒ¼ãƒ‰4ã‹ã‚‰ã€€640-4=636ã‚ˆã‚Š
+                //â†‘32ï¼Š20â†’640
+                //â†‘ãƒãƒƒãƒ—ãƒãƒƒãƒ—1å€‹åˆ†ã®ãƒ”ã‚¯ã‚»ãƒ«æ•°ï¼Šãƒãƒƒãƒ—ãƒãƒƒãƒ—æŒ‡å®šé…åˆ—ã®æ¨ªæ–¹å‘æ•°
                 direction = 3;
             }
         }
 
     }
 
-    //ƒ}ƒbƒv‘JˆÚ
+    //ãƒãƒƒãƒ—é·ç§»
     changeMap(x,y);
 
-    //Ÿ‚Ìƒ}ƒX‚Ü‚Å‘€ìƒLƒƒƒ‰‚ğ©“®“I‚É•à‚©‚¹‚é(‚Æ‰¼’è‚µ‚ÄÀ•WŒvZ)
+    //æ¬¡ã®ãƒã‚¹ã¾ã§æ“ä½œã‚­ãƒ£ãƒ©ã‚’è‡ªå‹•çš„ã«æ­©ã‹ã›ã‚‹(ã¨ä»®å®šã—ã¦åº§æ¨™è¨ˆç®—)
     if(direction == 0) {
         charaY += charaSpeed;
     } else if (direction == 1) {
@@ -898,81 +898,81 @@ function tick(){
     } else if (direction == 3) {
         charaX += charaSpeed;
     }
-    if (direction < 4) moveMap(); //ƒ}ƒbƒv‚ğƒXƒNƒ[ƒ‹
+    if (direction < 4) moveMap(); //ãƒãƒƒãƒ—ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
 
     stage.update();
 }
 
-//ƒ}ƒbƒv‘JˆÚ
+//ãƒãƒƒãƒ—é·ç§»
 function changeMap(x,y) {
     
     if (mapNumber == 1) {
-	    //ƒ}ƒbƒv1‚©‚çƒ}ƒbƒv2‚Ö‘JˆÚ
+	    //ãƒãƒƒãƒ—1ã‹ã‚‰ãƒãƒƒãƒ—2ã¸é·ç§»æ™‚
 	    if (x == 8 && y == 19) {
-	        //•\¦‚·‚éƒ}ƒbƒvî•ñ‚ğ‚à‚Â”z—ñ‚ğƒZƒbƒg
+	        //è¡¨ç¤ºã™ã‚‹ãƒãƒƒãƒ—æƒ…å ±ã‚’ã‚‚ã¤é…åˆ—ã‚’ã‚»ãƒƒãƒˆ
 	        mapData = secondMapData;
 	        mapObstacleData = secondMapObstacleData;
-	        //‘€ìƒLƒƒƒ‰‚ÌÀ•W‚ğİ’è
+	        //æ“ä½œã‚­ãƒ£ãƒ©ã®åº§æ¨™ã‚’è¨­å®š
 	        charaX = 256; //32*8
 	        charaY = 32;  //32*(0+1)
-	        //ƒOƒ‰ƒtƒBƒbƒNƒ`ƒbƒvAƒLƒƒƒ‰ƒ`ƒbƒv‚ğÄ•\¦
+	        //ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ãƒãƒƒãƒ—ã€ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã‚’å†è¡¨ç¤º
 	        mapNumber = 2;
 	        drawGraphicChip();
-	        moveMap(); //ƒ}ƒbƒv‚ğƒXƒNƒ[ƒ‹
+	        moveMap(); //ãƒãƒƒãƒ—ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
                 mapState = 0;
 	    }
     } else if (mapNumber == 2) {
-            //ƒ}ƒbƒv2‚©‚çƒ}ƒbƒv1‚Ö‘JˆÚ
+            //ãƒãƒƒãƒ—2ã‹ã‚‰ãƒãƒƒãƒ—1ã¸é·ç§»æ™‚
             if (x == 8 && y == 0) {
-                //•\¦‚·‚éƒ}ƒbƒvî•ñ‚ğ‚à‚Â”z—ñ‚ğƒZƒbƒg
+                //è¡¨ç¤ºã™ã‚‹ãƒãƒƒãƒ—æƒ…å ±ã‚’ã‚‚ã¤é…åˆ—ã‚’ã‚»ãƒƒãƒˆ
                 mapData = firstMapData;
                 mapObstacleData = firstMapObstacleData;
-                //‘€ìƒLƒƒƒ‰‚ÌÀ•W‚ğİ’è
+                //æ“ä½œã‚­ãƒ£ãƒ©ã®åº§æ¨™ã‚’è¨­å®š
                 charaX = 256; //32*8
                 charaY = 576; //32*(19-1)
-                //ƒOƒ‰ƒtƒBƒbƒNƒ`ƒbƒvAƒLƒƒƒ‰ƒ`ƒbƒv‚ğÄ•\¦
+                //ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ãƒãƒƒãƒ—ã€ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã‚’å†è¡¨ç¤º
                 mapNumber = 1;
                 drawGraphicChip();
-                moveMap(); //ƒ}ƒbƒv‚ğƒXƒNƒ[ƒ‹
+                moveMap(); //ãƒãƒƒãƒ—ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
                 mapState = 0;
-            //ƒ}ƒbƒv2‚©‚çƒ}ƒbƒv3‚Ö‘JˆÚ
+            //ãƒãƒƒãƒ—2ã‹ã‚‰ãƒãƒƒãƒ—3ã¸é·ç§»æ™‚
             } else if (x == 8 && y == 19) {
-                //•\¦‚·‚éƒ}ƒbƒvî•ñ‚ğ‚à‚Â”z—ñ‚ğƒZƒbƒg
+                //è¡¨ç¤ºã™ã‚‹ãƒãƒƒãƒ—æƒ…å ±ã‚’ã‚‚ã¤é…åˆ—ã‚’ã‚»ãƒƒãƒˆ
                 mapData = thirdMapData;
                 mapObstacleData = thirdMapObstacleData;
-                //‘€ìƒLƒƒƒ‰‚ÌÀ•W‚ğİ’è
+                //æ“ä½œã‚­ãƒ£ãƒ©ã®åº§æ¨™ã‚’è¨­å®š
                 charaX = 256; //32*8
                 charaY = 32;  //32*(0+1)
-                //ƒOƒ‰ƒtƒBƒbƒNƒ`ƒbƒvAƒLƒƒƒ‰ƒ`ƒbƒv‚ğÄ•\¦
+                //ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ãƒãƒƒãƒ—ã€ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã‚’å†è¡¨ç¤º
                 mapNumber = 3;
                 drawGraphicChip();
-                moveMap(); //ƒ}ƒbƒv‚ğƒXƒNƒ[ƒ‹
+                moveMap(); //ãƒãƒƒãƒ—ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
                 mapState = 0;
             }
     } else if (mapNumber == 3) {
-            //ƒ}ƒbƒv3‚©‚çƒ}ƒbƒv2‚Ö‘JˆÚ
+            //ãƒãƒƒãƒ—3ã‹ã‚‰ãƒãƒƒãƒ—2ã¸é·ç§»æ™‚
             if (x == 8 && y == 0) {
-                //•\¦‚·‚éƒ}ƒbƒvî•ñ‚ğ‚à‚Â”z—ñ‚ğƒZƒbƒg
+                //è¡¨ç¤ºã™ã‚‹ãƒãƒƒãƒ—æƒ…å ±ã‚’ã‚‚ã¤é…åˆ—ã‚’ã‚»ãƒƒãƒˆ
                 mapData = secondMapData;
                 mapObstacleData = secondMapObstacleData;
-                //‘€ìƒLƒƒƒ‰‚ÌÀ•W‚ğİ’è
+                //æ“ä½œã‚­ãƒ£ãƒ©ã®åº§æ¨™ã‚’è¨­å®š
                 charaX = 256; //32*8
                 charaY = 576; //32*(19-1)
-                //ƒOƒ‰ƒtƒBƒbƒNƒ`ƒbƒvAƒLƒƒƒ‰ƒ`ƒbƒv‚ğÄ•\¦
+                //ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ãƒãƒƒãƒ—ã€ã‚­ãƒ£ãƒ©ãƒãƒƒãƒ—ã‚’å†è¡¨ç¤º
                 mapNumber = 2;
                 drawGraphicChip();
-                moveMap(); //ƒ}ƒbƒv‚ğƒXƒNƒ[ƒ‹
+                moveMap(); //ãƒãƒƒãƒ—ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
                 mapState = 0;
             }
     }
 }
 
-//ƒ}ƒbƒv‚ğƒXƒNƒ[ƒ‹
+//ãƒãƒƒãƒ—ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
 function moveMap() {
 
-    //(x, y) = (192,192)‚Í—EÒƒLƒƒƒ‰ƒNƒ^[‚ğcanvasã‚É”z’u‚µ‚½À•W
-    //‚»‚±‚©‚ç—EÒƒLƒƒƒ‰ƒNƒ^[‚ªŒvZãˆÚ“®‚µ‚½•ª‚ğ‚³‚µ‚Ğ‚¢‚ÄA
-    //ƒXƒNƒ[ƒ‹‚³‚¹‚éƒ}ƒbƒv‰æ‘œ‚Ì¶ãÀ•W‚ğ“±o‚·‚é
+    //(x, y) = (192,192)ã¯å‹‡è€…ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚’canvasä¸Šã«é…ç½®ã—ãŸåº§æ¨™
+    //ãã“ã‹ã‚‰å‹‡è€…ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ãŒè¨ˆç®—ä¸Šç§»å‹•ã—ãŸåˆ†ã‚’ã•ã—ã²ã„ã¦ã€
+    //ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã•ã›ã‚‹ãƒãƒƒãƒ—ç”»åƒã®å·¦ä¸Šåº§æ¨™ã‚’å°å‡ºã™ã‚‹
     mapGround.x = 192-charaX;
     mapGround.y = 192-charaY;
 
@@ -980,15 +980,15 @@ function moveMap() {
 
 function drawGraphicChip() {
 
-    //ˆê“x‚·‚×‚Ä‚Ìstage‚ÌChild‚ğŠJ•ú‚µ‚Ä‚©‚ç‚à‚¤ˆê“x•\¦ƒIƒuƒWƒFƒNƒg‚ğaddChild‚µ‚È‚¨‚·
+    //ä¸€åº¦ã™ã¹ã¦ã®stageã®Childã‚’é–‹æ”¾ã—ã¦ã‹ã‚‰ã‚‚ã†ä¸€åº¦è¡¨ç¤ºã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’addChildã—ãªãŠã™
     stage.removeAllChildren(); 
-    //ˆê‚Â‘O‚Ìƒ}ƒbƒv‚Ì‰æ‘œ‚ğ•Û‚µ‘±‚¯‚È‚¢‚æ‚¤‚Éremove‚·‚é(‚½‚Ô‚ñ)
+    //ä¸€ã¤å‰ã®ãƒãƒƒãƒ—ã®ç”»åƒã‚’ä¿æŒã—ç¶šã‘ãªã„ã‚ˆã†ã«removeã™ã‚‹(ãŸã¶ã‚“)
     mapGround.removeAllChildren();
 
-    //”wŒiÄ”z’u
+    //èƒŒæ™¯å†é…ç½®
     stage.addChild(backGroundRect);
 
-    //ƒ}ƒbƒvÄ”z’u
+    //ãƒãƒƒãƒ—å†é…ç½®
     var x = 0, y = 0; 
     while (y < mapData.length){
         while (x < mapData[y].length){
@@ -1004,22 +1004,22 @@ function drawGraphicChip() {
     }
     stage.addChild(mapGround);
 
-    //—EÒƒLƒƒƒ‰ƒNƒ^Ä”z’u
+    //å‹‡è€…ã‚­ãƒ£ãƒ©ã‚¯ã‚¿å†é…ç½®
     stage.addChild(yuusha);
 
-    //ƒ}ƒbƒv1‚Ì‚Æ‚«‚Ì‚İ‘m—µƒLƒƒƒ‰ƒNƒ^Ä”z’u
+    //ãƒãƒƒãƒ—1ã®ã¨ãã®ã¿åƒ§ä¾¶ã‚­ãƒ£ãƒ©ã‚¯ã‚¿å†é…ç½®
     if (mapNumber == 1) {
         mapGround.addChild(priest);
-    //ƒ}ƒbƒv2‚Ì‚Æ‚«‚Ì‚İ‚µ‚©‚Î‚ËƒLƒƒƒ‰ƒNƒ^Ä”z’u
+    //ãƒãƒƒãƒ—2ã®ã¨ãã®ã¿ã—ã‹ã°ã­ã‚­ãƒ£ãƒ©ã‚¯ã‚¿å†é…ç½®
     } else if (mapNumber == 2) {
-        //‚µ‚©‚Î‚Ë‚ª‚Ü‚¾“|‚³‚ê‚Ä‚¢‚È‚¢ê‡‚Ì‚İÄ•\¦
+        //ã—ã‹ã°ã­ãŒã¾ã å€’ã•ã‚Œã¦ã„ãªã„å ´åˆã®ã¿å†è¡¨ç¤º
         //if (isShikabane) mapGround.addChild(shikabane);
-    //ƒ}ƒbƒv3‚Ì‚Æ‚«‚Ì‚İ–‚—ƒLƒƒƒ‰ƒNƒ^Ä”z’u
+    //ãƒãƒƒãƒ—3ã®ã¨ãã®ã¿é­”å¥³ã‚­ãƒ£ãƒ©ã‚¯ã‚¿å†é…ç½®
     } else if (mapNumber == 3) {
         mapGround.addChild(witch);
     }
 
-    //ƒ{ƒ^ƒ“Ä”z’u
+    //ãƒœã‚¿ãƒ³å†é…ç½®
     stage.addChild(leftButtonBmp);
     stage.addChild(rightButtonBmp);
     stage.addChild(upButtonBmp);
@@ -1027,7 +1027,7 @@ function drawGraphicChip() {
     stage.addChild(aButtonBmp);
     stage.addChild(bButtonBmp);
 
-    //ƒƒbƒZ[ƒWÄ”z’u
+    //ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å†é…ç½®
     stage.addChild(message);
 }
 
@@ -1037,7 +1037,7 @@ var Yuusha = function(lifePoint, maxLifePoint, attackPoint, defencePoint, bone) 
     this.attackPoint = attackPoint;
     this.defencePoint = defencePoint;
     this.battleMessage = "";
-    this.battleYuushaTurn = true; //true:—EÒ‚ÌUŒ‚ƒ^[ƒ“@false:“G‚ÌUŒ‚ƒ^[ƒ“
+    this.battleYuushaTurn = true; //true:å‹‡è€…ã®æ”»æ’ƒã‚¿ãƒ¼ãƒ³ã€€false:æ•µã®æ”»æ’ƒã‚¿ãƒ¼ãƒ³
     this.bone = bone;
     this.level = 1;
     this.knockoutCnt = 0;
@@ -1062,8 +1062,8 @@ var Enemy = function(name, lifePoint, maxLifePoint, attackPoint, defencePoint, b
 
 function setMapData() {
 
-//0:Å¶@1:»@2:Îô@3:ƒtƒ[ƒŠƒ“ƒO@4:‹´icj@5:‹´i‰¡j@6:–Øi¬j@7:–Øi‘åj@8:ƒTƒ{ƒeƒ“@9:…
-//10:•ÇiÎj@11:•Çi–Øj@12:•Çi•Ší‰®j@13:•Çi–h‹ï‰®j@14:•Çih‰®j@15:šâ@16:ƒ^ƒ“ƒX@17:Î‘œ@18:^‚ÁˆÃ
+//0:èŠç”Ÿã€€1:ç ‚ã€€2:çŸ³ç•³ã€€3:ãƒ•ãƒ­ãƒ¼ãƒªãƒ³ã‚°ã€€4:æ©‹ï¼ˆç¸¦ï¼‰ã€€5:æ©‹ï¼ˆæ¨ªï¼‰ã€€6:æœ¨ï¼ˆå°ï¼‰ã€€7:æœ¨ï¼ˆå¤§ï¼‰ã€€8:ã‚µãƒœãƒ†ãƒ³ã€€9:æ°´
+//10:å£ï¼ˆçŸ³ï¼‰ã€€11:å£ï¼ˆæœ¨ï¼‰ã€€12:å£ï¼ˆæ­¦å™¨å±‹ï¼‰ã€€13:å£ï¼ˆé˜²å…·å±‹ï¼‰ã€€14:å£ï¼ˆå®¿å±‹ï¼‰ã€€15:å£ºã€€16:ã‚¿ãƒ³ã‚¹ã€€17:çŸ³åƒã€€18:çœŸã£æš—
 
 firstMapData =     [ [ 0, 6, 9,18,10,10,10,10,10,18, 2,18,11,11,11,11,18, 9, 6, 0],
                      [ 0, 0, 9,18,16,16, 2, 2, 2,18, 2,18, 3, 3,15,16,18, 9, 0, 0],
