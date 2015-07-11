@@ -1,0 +1,8 @@
+{
+    "name": "SiouxcitizenGithubIo",
+    "description": "Content from http://siouxcitizen.github.io/",
+    "launch_path": "/",
+    "icons": {
+        "128": "icon128.png"
+    }
+}
