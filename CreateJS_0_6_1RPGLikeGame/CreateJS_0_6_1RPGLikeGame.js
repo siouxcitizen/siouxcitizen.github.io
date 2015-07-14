@@ -1,4 +1,4 @@
-﻿// forked from siouxcitizen's "CreateJS 0.6.1 前回コードから戦闘もどき機能追加" http://jsdo.it/siouxcitizen/1mJ8
+// forked from siouxcitizen's "CreateJS 0.6.1 前回コードから戦闘もどき機能追加" http://jsdo.it/siouxcitizen/1mJ8
 //
 //自分のスマホから操作できるゲーム目指して。。。(自分のスマホでの動き怪しくなってきましたが。。。)
 //自分のスマホからだとAボタンが連打になってしまいやすい。。。
